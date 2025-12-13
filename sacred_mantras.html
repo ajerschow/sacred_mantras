@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hanuman Chalisa Explorer</title>
-    
+
     <meta property="og:title" content="Sacred Mantras and Invocations">
-    
+
     <meta property="og:description" content="Explore sacred mantras with meanings, translations.">
-    
-    <meta property="og:image" content="https://raw.githubusercontent.com/ajerschow/sacred_mantras/refs/heads/main/bg1-social-small.jpg">
-    
+
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/ajerschow/sacred_mantras/refs/heads/main/bg1-social-small.jpg">
+
     <meta property="og:url" content="https://ajerschow.github.io/sacred_mantras/">
-    
+
     <meta property="og:type" content="website">
 
     <meta property="og:image:width" content="450">
@@ -22,35 +24,42 @@
 
     <style>
         :root {
-            --primary: #FF9933; /* Saffron */
+            --primary: #FF9933;
+            /* Saffron */
             --text-dark: #2c3e50;
             --text-light: #555;
             --bg-color: #fdfbf7;
             --modal-bg: #ffffff;
         }
 
-     
 
-       header {
-    text-align: center;
-    padding: 25px 20px; /* Top/Bottom, Left/Right */
-    margin-bottom: 30px;
-    margin-top: 20px;   /* Adds a little space at the very top */
-    
-    /* THE FIX: Semi-transparent white background */
-    background: rgba(255, 255, 255, 0.92); /* 92% opaque white */
-    backdrop-filter: blur(5px);            /* Blurs the image behind the box */
-    
-    /* Shape and Shadow */
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Drop shadow to lift it up */
-    border: 1px solid rgba(255,255,255,0.5); /* Subtle white border */
-    
-    /* Centering */
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+        header {
+            text-align: center;
+            padding: 25px 20px;
+            /* Top/Bottom, Left/Right */
+            margin-bottom: 30px;
+            margin-top: 20px;
+            /* Adds a little space at the very top */
+
+            /* THE FIX: Semi-transparent white background */
+            background: rgba(255, 255, 255, 0.92);
+            /* 92% opaque white */
+            backdrop-filter: blur(5px);
+            /* Blurs the image behind the box */
+
+            /* Shape and Shadow */
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            /* Drop shadow to lift it up */
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            /* Subtle white border */
+
+            /* Centering */
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
         h1 {
             color: var(--primary);
@@ -61,8 +70,10 @@
             color: var(--text-light);
             font-size: 1.1rem;
             font-style: italic;
-            margin-top: -5px;   /* Pulls it closer to the main title */
-            margin-bottom: 20px; /* Pushes the settings button down */
+            margin-top: -5px;
+            /* Pulls it closer to the main title */
+            margin-bottom: 20px;
+            /* Pushes the settings button down */
             font-weight: 400;
         }
 
@@ -100,13 +111,16 @@
 
         /* Update this class to make the cards slightly see-through */
         .verse-block {
-            background: rgba(255, 255, 255, 0.93); /* 0.93 means 93% solid, 7% transparent */
+            background: rgba(255, 255, 255, 0.93);
+            /* 0.93 means 93% solid, 7% transparent */
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Slightly darker shadow for contrast */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            /* Slightly darker shadow for contrast */
             text-align: center;
-            backdrop-filter: blur(3px); /* Optional: blurs the background behind the text */
+            backdrop-filter: blur(3px);
+            /* Optional: blurs the background behind the text */
         }
 
         .verse-type {
@@ -142,14 +156,16 @@
             color: #666;
             margin-bottom: 15px;
             /* line-height: 1.5; */
-            display: block; /* Hidden by default */
+            display: block;
+            /* Hidden by default */
         }
 
         .translation-line {
             color: #2c3e50;
             font-weight: 500;
             margin-top: 5px;
-            display: block; /* Hidden by default */
+            display: block;
+            /* Hidden by default */
         }
 
         /* Visibility Classes controlled by JS */
@@ -157,8 +173,13 @@
         body.show-transl .translation-line { display: block; } */
 
         /* HIDING Classes - These apply when the box is checked */
-        body.hide-translit .transliteration-line { display: none; }
-        body.hide-transl .translation-line { display: none; }
+        body.hide-translit .transliteration-line {
+            display: none;
+        }
+
+        body.hide-transl .translation-line {
+            display: none;
+        }
 
         /* Modal/Popup Styling */
         .modal-overlay {
@@ -167,7 +188,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.6);
+            background: rgba(0, 0, 0, 0.6);
             display: none;
             justify-content: center;
             align-items: center;
@@ -181,7 +202,7 @@
             max-width: 500px;
             width: 90%;
             position: relative;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
             border-top: 5px solid var(--primary);
         }
 
@@ -204,253 +225,278 @@
             font-style: normal;
         }
 
-        .modal-word { font-size: 2em; color: var(--primary); margin: 0; }
-        .modal-translit { font-size: 1.2em; font-style: italic; margin-bottom: 15px; color: #555; }
-        
-        .detail-row { margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
-        .detail-label { font-weight: bold; color: var(--text-dark); display: block; font-size: 0.9em; }
-        .detail-text { color: var(--text-light); }
+        .modal-word {
+            font-size: 2em;
+            color: var(--primary);
+            margin: 0;
+        }
+
+        .modal-translit {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .detail-row {
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .detail-label {
+            font-weight: bold;
+            color: var(--text-dark);
+            display: block;
+            font-size: 0.9em;
+        }
+
+        .detail-text {
+            color: var(--text-light);
+        }
 
 
- /* 1. Reset Body to be transparent so we see the layer behind it */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 20px;
-    line-height: 1.6;
-    color: var(--text-dark);
-    background: transparent; /* Important! */
-    position: relative;
-}
+        /* 1. Reset Body to be transparent so we see the layer behind it */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: transparent;
+            /* Important! */
+            position: relative;
+        }
 
-/* === BACKGROUND LAYER (DESKTOP) === */
-#background-layer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -1;
-    
-    /* 1. DEBUG COLOR: If you see Orange, your image path is wrong */
-    background-color: var(--primary); 
+        /* === BACKGROUND LAYER (DESKTOP) === */
+        #background-layer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
 
-    /* 2. IMAGE: Check your file extension! (.jpg or .png?) */
-    background-image: url('bg2.jpg'); 
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+            /* 1. DEBUG COLOR: If you see Orange, your image path is wrong */
+            background-color: var(--primary);
 
-/* === MOBILE OVERRIDES === */
-@media (max-width: 768px) {
-    #background-layer {
-        /* 3. MOBILE IMAGE: Check if this file is actually .jpg in your folder! */
-        background-image: url('bg2.jpg');
-        
-        background-position: top center;
-    }
-    
-    /* Ensure text cards are slightly transparent so you can see the bg */
-    .verse-block {
-        background: rgba(255, 255, 255, 0.92); 
-    }
-}
+            /* 2. IMAGE: Check your file extension! (.jpg or .png?) */
+            background-image: url('bg2.jpg');
 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        /* === MOBILE OVERRIDES === */
+        @media (max-width: 768px) {
+            #background-layer {
+                /* 3. MOBILE IMAGE: Check if this file is actually .jpg in your folder! */
+                background-image: url('bg2.jpg');
+
+                background-position: top center;
+            }
+
+            /* Ensure text cards are slightly transparent so you can see the bg */
+            .verse-block {
+                background: rgba(255, 255, 255, 0.92);
+            }
+        }
     </style>
 </head>
+
 <body>
 
     <div id="background-layer"></div>
 
-<header>
-    <h1>Sacred Mantras</h1>
+    <header>
+        <h1>Sacred Mantras</h1>
 
-    <p class="subtitle">Click on any word for specific definition & translation</p>
+        <p class="subtitle">Click on any word for specific definition & translation</p>
 
-    <div class="controls">
-        <label class="toggle-label">
-            <input type="checkbox" id="toggle-translit">Hide Transliteration
-        </label>
-        <label class="toggle-label">
-            <input type="checkbox" id="toggle-transl">Hide English Translation
-        </label>
-        <label class="toggle-label">
-            <input type="checkbox" id="toggle-br" checked>Break verses into lines
-        </label>
+        <div class="controls">
+            <label class="toggle-label">
+                <input type="checkbox" id="toggle-translit">Hide Transliteration
+            </label>
+            <label class="toggle-label">
+                <input type="checkbox" id="toggle-transl">Hide English Translation
+            </label>
+            <label class="toggle-label">
+                <input type="checkbox" id="toggle-br" checked>Break verses into lines
+            </label>
+        </div>
+    </header>
+
+    <div id="chalisa-container" class="hide-breaks">
     </div>
-</header>
 
-<div id="chalisa-container" class="hide-breaks">
-    </div>
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="m-word" class="modal-word"></h2>
+            <div id="m-translit" class="modal-translit"></div>
 
-<div class="modal-overlay" id="modal">
-    <div class="modal-content">
-        <span class="close-btn" onclick="closeModal()">&times;</span>
-        <h2 id="m-word" class="modal-word"></h2>
-        <div id="m-translit" class="modal-translit"></div>
-        
-        <div class="detail-row">
-            <span class="detail-label">Translation</span>
-            <span id="m-translation" class="detail-text"></span>
-        </div>
-        <div class="detail-row">
-            <span class="detail-label">Hindi Equivalent</span>
-            <span id="m-hindi" class="detail-text"></span>
-        </div>
-        <div class="detail-row">
-            <span class="detail-label">Sanskrit Etymology / Grammar</span>
-            <span id="m-etymology" class="detail-text"></span>
-        </div>
-        <div class="detail-row" style="border:none;">
-            <span class="detail-label">Cultural Note</span>
-            <span id="m-note" class="detail-text"></span>
+            <div class="detail-row">
+                <span class="detail-label">Translation</span>
+                <span id="m-translation" class="detail-text"></span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Hindi Equivalent</span>
+                <span id="m-hindi" class="detail-text"></span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Sanskrit Etymology / Grammar</span>
+                <span id="m-etymology" class="detail-text"></span>
+            </div>
+            <div class="detail-row" style="border:none;">
+                <span class="detail-label">Cultural Note</span>
+                <span id="m-note" class="detail-text"></span>
+            </div>
         </div>
     </div>
-</div>
 
-<script src="mantras_data.js"></script>
+    <script src="mantras_data.js"></script>
 
-<script>
+    <script>
 
 
-    // 2. RENDER LOGIC
-    const container = document.getElementById('chalisa-container');
-    
-    function renderChalisa() {
-        container.innerHTML = '';
-        
-        mantrasData.forEach((verse, index) => {
-            const verseDiv = document.createElement('div');
-            verseDiv.className = 'verse-block';
+        // 2. RENDER LOGIC
+        const container = document.getElementById('chalisa-container');
 
-            // Construct Devanagari Line with clickable spans
-            let devanagariHTML = '<div class="devanagari-line">';
-            verse.words.forEach((word, wordIdx) => {
-                // Store data indices in data attributes
-                switch (word.text) {
-                    case "|": devanagariHTML += '<span class="colored-symbol">|</span>'; break;
-                    case "||": devanagariHTML += '<span class="colored-symbol">||</span>'; break;
-                    case "<br>": devanagariHTML += "<br>"; break;
-                    default:
-                        devanagariHTML += `<span class="word-span" onclick="openWord(${index}, ${wordIdx})">${word.text}</span> `;
-                }
-            });
-            devanagariHTML += '</div>';
+        function renderChalisa() {
+            container.innerHTML = '';
 
-            // Construct transliteration Line with clickable spans
-            let transliterationHTML = '<div class="transliteration-line">';
-            verse.words.forEach((word, wordIdx) => {
-                // Store data indices in data attributes
-                switch (word.text) {
-                    case "|": transliterationHTML += '<span class="colored-symbol">|</span>'; break;
-                    case "||": transliterationHTML += '<span class="colored-symbol">||</span>'; break;
-                    case "<br>": transliterationHTML += "<br>"; break;
-                    default:
-                        transliterationHTML += `<span class="word-span" onclick="openWord(${index}, ${wordIdx})">${word.transliteration}</span> `;
-                }
-            });
-            transliterationHTML += '</div>';
+            mantrasData.forEach((verse, index) => {
+                const verseDiv = document.createElement('div');
+                verseDiv.className = 'verse-block';
 
-            // <div class="transliteration-line">${verse.fullTransliteration}</div>
-            verseDiv.innerHTML = `
+                // Construct Devanagari Line with clickable spans
+                let devanagariHTML = '<div class="devanagari-line">';
+                verse.words.forEach((word, wordIdx) => {
+                    // Store data indices in data attributes
+                    switch (word.text) {
+                        case "|": devanagariHTML += '<span class="colored-symbol">|</span>'; break;
+                        case "||": devanagariHTML += '<span class="colored-symbol">||</span>'; break;
+                        case "<br>": devanagariHTML += "<br>"; break;
+                        default:
+                            devanagariHTML += `<span class="word-span" onclick="openWord(${index}, ${wordIdx})">${word.text}</span> `;
+                    }
+                });
+                devanagariHTML += '</div>';
+
+                // Construct transliteration Line with clickable spans
+                let transliterationHTML = '<div class="transliteration-line">';
+                verse.words.forEach((word, wordIdx) => {
+                    // Store data indices in data attributes
+                    switch (word.text) {
+                        case "|": transliterationHTML += '<span class="colored-symbol">|</span>'; break;
+                        case "||": transliterationHTML += '<span class="colored-symbol">||</span>'; break;
+                        case "<br>": transliterationHTML += "<br>"; break;
+                        default:
+                            transliterationHTML += `<span class="word-span" onclick="openWord(${index}, ${wordIdx})">${word.transliteration}</span> `;
+                    }
+                });
+                transliterationHTML += '</div>';
+
+                // <div class="transliteration-line">${verse.fullTransliteration}</div>
+                verseDiv.innerHTML = `
                 <div class="verse-type">${verse.type} ${verse.verseIndex}</div>
                 ${devanagariHTML}
                 ${transliterationHTML}
                 <div class="translation-line">${verse.fullTranslation}</div>
             `;
-            
-            container.appendChild(verseDiv);
-        });
-    }
 
-    // UPDATED: Logic inverted to "Hide"
-    function updateVisibility() {
-        // If checked, we ADD the class that hides the text
-        if(toggleTranslit.checked) document.body.classList.add('hide-translit');
-        else document.body.classList.remove('hide-translit');
-
-        if(toggleTransl.checked) document.body.classList.add('hide-transl');
-        else document.body.classList.remove('hide-transl');
-    }
-
-    // 3. INTERACTION LOGIC
-    // Toggles
-    const toggleTranslit = document.getElementById('toggle-translit');
-    const toggleTransl = document.getElementById('toggle-transl');
-    const toggleBr = document.getElementById('toggle-br');
-
-    // Add Listeners
-    toggleTranslit.addEventListener('change', updateVisibility);
-    toggleTransl.addEventListener('change', updateVisibility);
-
-
-    // toggleTranslit.addEventListener('change', (e) => {
-    //     if(e.target.checked) document.body.classList.add('show-translit');
-    //     else document.body.classList.remove('show-translit');
-    // });
-
-    // toggleTransl.addEventListener('change', (e) => {
-    //     if(e.target.checked) document.body.classList.add('show-transl');
-    //     else document.body.classList.remove('show-transl');
-    // });
-
-    // Modal Logic
-    const modal = document.getElementById('modal');
-
-    function openWord(verseIdx, wordIdx) {
-        const wordData = mantrasData[verseIdx].words[wordIdx];
-        
-        // Populate Modal
-        document.getElementById('m-word').innerText = wordData.text;
-        document.getElementById('m-translit').innerText = wordData.transliteration;
-        document.getElementById('m-translation').innerText = wordData.translation;
-        document.getElementById('m-hindi').innerText = wordData.hindi;
-        document.getElementById('m-etymology').innerText = wordData.etym;
-        document.getElementById('m-note').innerText = wordData.note;
-
-        // Show Modal
-        modal.style.display = 'flex';
-    }
-
-    function closeModal() {
-        modal.style.display = 'none';
-    }
-
-    // Close modal if clicking outside content
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            closeModal();
+                container.appendChild(verseDiv);
+            });
         }
-    }
 
-     // Explicit event listener for checkbox change
-    const checkbox = document.getElementById('toggle-br');
-    const containers = document.querySelectorAll('#chalisa-container, .breakable');  // Targets one or more
+        // UPDATED: Logic inverted to "Hide"
+        function updateVisibility() {
+            // If checked, we ADD the class that hides the text
+            if (toggleTranslit.checked) document.body.classList.add('hide-translit');
+            else document.body.classList.remove('hide-translit');
 
-  // Function to toggle based on checkbox state
-  function toggleBreaks() {
-    containers.forEach(container => {
-      if (checkbox.checked) {
-        container.classList.remove('hide-breaks');  // Show <br>
-      } else {
-        container.classList.add('hide-breaks');     // Hide <br>
-      }
-    });
-  }
+            if (toggleTransl.checked) document.body.classList.add('hide-transl');
+            else document.body.classList.remove('hide-transl');
+        }
 
-  // Initial call to set state (in case default is unchecked)
-  toggleBreaks();
+        // 3. INTERACTION LOGIC
+        // Toggles
+        const toggleTranslit = document.getElementById('toggle-translit');
+        const toggleTransl = document.getElementById('toggle-transl');
+        const toggleBr = document.getElementById('toggle-br');
 
-  // Listen for changes (includes click, keyboard, etc.)
-  checkbox.addEventListener('change', toggleBreaks);
+        // Add Listeners
+        toggleTranslit.addEventListener('change', updateVisibility);
+        toggleTransl.addEventListener('change', updateVisibility);
 
-    // Initialize immediately
-    renderChalisa();
-    updateVisibility();
 
-</script>
+        // toggleTranslit.addEventListener('change', (e) => {
+        //     if(e.target.checked) document.body.classList.add('show-translit');
+        //     else document.body.classList.remove('show-translit');
+        // });
+
+        // toggleTransl.addEventListener('change', (e) => {
+        //     if(e.target.checked) document.body.classList.add('show-transl');
+        //     else document.body.classList.remove('show-transl');
+        // });
+
+        // Modal Logic
+        const modal = document.getElementById('modal');
+
+        function openWord(verseIdx, wordIdx) {
+            const wordData = mantrasData[verseIdx].words[wordIdx];
+
+            // Populate Modal
+            document.getElementById('m-word').innerText = wordData.text;
+            document.getElementById('m-translit').innerText = wordData.transliteration;
+            document.getElementById('m-translation').innerText = wordData.translation;
+            document.getElementById('m-hindi').innerText = wordData.hindi;
+            document.getElementById('m-etymology').innerText = wordData.etym;
+            document.getElementById('m-note').innerText = wordData.note;
+
+            // Show Modal
+            modal.style.display = 'flex';
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+        }
+
+        // Close modal if clicking outside content
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+
+        // Explicit event listener for checkbox change
+        const checkbox = document.getElementById('toggle-br');
+        const containers = document.querySelectorAll('#chalisa-container, .breakable');  // Targets one or more
+
+        // Function to toggle based on checkbox state
+        function toggleBreaks() {
+            containers.forEach(container => {
+                if (checkbox.checked) {
+                    container.classList.remove('hide-breaks');  // Show <br>
+                } else {
+                    container.classList.add('hide-breaks');     // Hide <br>
+                }
+            });
+        }
+
+        // Initial call to set state (in case default is unchecked)
+        toggleBreaks();
+
+        // Listen for changes (includes click, keyboard, etc.)
+        checkbox.addEventListener('change', toggleBreaks);
+
+        // Initialize immediately
+        renderChalisa();
+        updateVisibility();
+
+    </script>
 
 </body>
+
 </html>
