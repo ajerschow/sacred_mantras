@@ -506,5 +506,465 @@ const mantrasData = [
       "transliteration": "||"
     }
   ]
+},
+{
+  "type": "Hundred-Syllable Mantra of Vajrasattva",
+  "verseIndex": "",
+  "fullTransliteration": "Oṃ vajrasattva samayam anupālaya | Vajrasattva tvenopatiṣṭha | Dṛḍho me bhava | Sutoṣyo me bhava | Supoṣyo me bhava | Anurakto me bhava | Sarva siddhiṃ me prayaccha | Sarva karmasu ca me cittaṃ śreyaḥ kuru hūṃ | Ha ha ha ha hoḥ bhagavan sarva tathāgata vajra mā me muñca | Vajrī bhava mahāsamaya sattva āḥ ||",
+  "fullTranslation": "Om. Oh Vajrasattva, preserve the bond (samaya). As Vajrasattva, stand near me. Be steadfast for me. Be well-pleased with me. Be fully nourishing for me. Be passionately loving towards me. Grant me all spiritual accomplishments (siddhis). And in all actions, make my mind virtuous/glorious. Hum. Ha Ha Ha Ha Hoh! Oh Blessed One, oh Vajra of all Tathagatas, do not abandon me. Make me a holder of the Vajra. Oh Great Bond Being. Ah!",
+  "words": [
+    {
+      "text": "ॐ",
+      "transliteration": "Oṃ",
+      "translation": "Om",
+      "hindi": "ॐ",
+      "etym": "The Pranava.",
+      "note": "The seed syllable of the Universe; body, speech, and mind."
+    },
+    {
+      "text": "वज्रसत्त्व",
+      "transliteration": "vajrasattva",
+      "translation": "Oh Vajrasattva",
+      "hindi": "हे वज्रसत्त्व",
+      "etym": "vajra (diamond/thunderbolt) + sattva (being). Grammar: Vocative Singular Masculine.",
+      "note": "Addressing the Diamond Being (indestructible purity)."
+    },
+    {
+      "text": "समयम्",
+      "transliteration": "samayam",
+      "translation": "The Bond/Vow",
+      "hindi": "समय (प्रतिज्ञा/बंधन) को",
+      "etym": "Root: i (to go) + sam (together). Grammar: Accusative Singular Masculine.",
+      "note": "Refers to the sacred pledge or tantric commitment."
+    },
+    {
+      "text": "अनुपालय",
+      "transliteration": "anupālaya",
+      "translation": "Preserve/Protect",
+      "hindi": "पालन करो / रक्षा करो",
+      "etym": "Prefix: anu (following) + Root: pāl (to protect). Grammar: Imperative 2nd Person Singular (Causative form).",
+      "note": "Asking the deity to help keep the vow."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "वज्रसत्त्व",
+      "transliteration": "vajrasattva",
+      "translation": "Oh Vajrasattva",
+      "hindi": "हे वज्रसत्त्व",
+      "etym": "Vocative Singular.",
+      "note": "Repeated address."
+    },
+    {
+      "text": "त्वेनोपतिष्ठ",
+      "transliteration": "tvenopatiṣṭha",
+      "translation": "Stand near (as yourself)",
+      "hindi": "मेरे समीप स्थित हो",
+      "etym": "Sandhi: tvena (त्वेन) + upatiṣṭha (उपतिष्ठ). tvena (by your nature/instrumental) + upa-sthā (stand near/support). Grammar: Imperative 2nd Person Singular.",
+      "note": "Meaning: 'Stay close to me with your Vajra-nature.'"
+    },
+    {
+      "text": "दृढो",
+      "transliteration": "dṛḍho",
+      "translation": "Firm/Steadfast",
+      "hindi": "दृढ़ (मजबूत)",
+      "etym": "Sandhi: dṛḍhaḥ (दृढः). Root: dṛh (to be fixed). Grammar: Nominative Singular Masculine.",
+      "note": "Qualifies the state of the deity's presence."
+    },
+    {
+      "text": "मे",
+      "transliteration": "me",
+      "translation": "For me",
+      "hindi": "मेरे लिए",
+      "etym": "Pronoun: asmad. Grammar: Dative/Genitive Singular.",
+      "note": "-"
+    },
+    {
+      "text": "भव",
+      "transliteration": "bhava",
+      "translation": "Be",
+      "hindi": "हो जाओ",
+      "etym": "Root: bhū (to be). Grammar: Imperative 2nd Person Singular.",
+      "note": "Command/Prayer."
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "सुतोष्यो",
+      "transliteration": "sutoṣyo",
+      "translation": "Well Pleased",
+      "hindi": "अच्छी तरह से संतुष्ट",
+      "etym": "Sandhi: sutoṣyaḥ (सुतोष्यः). su (well) + root tuṣ (to satisfy) + ya (gerundive). Grammar: Nominative Singular Masculine.",
+      "note": "Be easily satisfied with me."
+    },
+    {
+      "text": "सुपोष्यो",
+      "transliteration": "supoṣyo",
+      "translation": "Well Nourishing",
+      "hindi": "अच्छी तरह से पोषण करने वाला",
+      "etym": "Sandhi: supoṣyaḥ (सुपोष्यः). su (well) + root puṣ (to nourish). Grammar: Nominative Singular Masculine.",
+      "note": "Make me grow/prosper spiritually."
+    },
+    {
+      "text": "अनुरक्तो",
+      "transliteration": "anurakto",
+      "translation": "Passionately Loving",
+      "hindi": "अनुरक्त (स्नेही/प्रेमी)",
+      "etym": "Sandhi: anuraktaḥ (अनुरक्तः). anu + root rañj (to color/redden) + kta. Grammar: Nominative Singular Masculine.",
+      "note": "Compassionate attachment."
+    },
+    {
+      "text": "मे",
+      "transliteration": "me",
+      "translation": "To me",
+      "hindi": "मुझ पर",
+      "etym": "Dative/Genitive.",
+      "note": "Repeated for emphasis."
+    },
+    {
+      "text": "भव",
+      "transliteration": "bhava",
+      "translation": "Be",
+      "hindi": "हो जाओ",
+      "etym": "Imperative.",
+      "note": "-"
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "सर्वसिद्धिं",
+      "transliteration": "sarva-siddhiṃ",
+      "translation": "All Accomplishments",
+      "hindi": "सभी सिद्धियों को",
+      "etym": "sarva (all) + siddhi (attainment). Grammar: Accusative Singular Feminine.",
+      "note": "Spiritual powers or realizations."
+    },
+    {
+      "text": "मे",
+      "transliteration": "me",
+      "translation": "To me",
+      "hindi": "मुझे",
+      "etym": "Dative/Genitive.",
+      "note": "-"
+    },
+    {
+      "text": "प्रयच्छ",
+      "transliteration": "prayaccha",
+      "translation": "Grant/Bestow",
+      "hindi": "प्रदान करें",
+      "etym": "pra (forth) + root yam (to give/hold). Grammar: Imperative 2nd Person Singular.",
+      "note": "-"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "सर्वकर्मसु",
+      "transliteration": "sarva-karmasu",
+      "translation": "In All Actions",
+      "hindi": "सभी कर्मों में",
+      "etym": "sarva + karman. Grammar: Locative Plural.",
+      "note": "In everything I do."
+    },
+    {
+      "text": "च",
+      "transliteration": "ca",
+      "translation": "And",
+      "hindi": "और",
+      "etym": "Indeclinable conjunction.",
+      "note": "-"
+    },
+    {
+      "text": "मे",
+      "transliteration": "me",
+      "translation": "My",
+      "hindi": "मेरे",
+      "etym": "Genitive.",
+      "note": "-"
+    },
+    {
+      "text": "चित्तं",
+      "transliteration": "cittaṃ",
+      "translation": "Mind",
+      "hindi": "चित्त (मन) को",
+      "etym": "Root: cit (to perceive). Grammar: Accusative Singular Neuter.",
+      "note": "The object of transformation."
+    },
+    {
+      "text": "श्रेयः",
+      "transliteration": "śreyaḥ",
+      "translation": "Virtuous/Glorious",
+      "hindi": "श्रेयस (कल्याणकारी/श्रेष्ठ)",
+      "etym": "Original: śreyas. Comparative of śrī (splendor/virtue). Grammar: Accusative Singular Neuter.",
+      "note": "Make my mind 'more excellent' or good."
+    },
+    {
+      "text": "कुरु",
+      "transliteration": "kuru",
+      "translation": "Make/Do",
+      "hindi": "करो",
+      "etym": "Root: kṛ (to do). Grammar: Imperative 2nd Person Singular.",
+      "note": "-"
+    },
+    {
+      "text": "हुं",
+      "transliteration": "hūṃ",
+      "translation": "Hum",
+      "hindi": "हुं",
+      "etym": "Bija Mantra.",
+      "note": "Seed syllable of the Enlightened Mind."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "ह",
+      "transliteration": "ha",
+      "translation": "Ha",
+      "hindi": "ह",
+      "etym": "Exclamation.",
+      "note": "Four 'Ha's represent the Four Immeasurables or the four kinds of joy."
+    },
+    {
+      "text": "ह",
+      "transliteration": "ha",
+      "translation": "Ha",
+      "hindi": "ह",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "ह",
+      "transliteration": "ha",
+      "translation": "Ha",
+      "hindi": "ह",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "ह",
+      "transliteration": "ha",
+      "translation": "Ha",
+      "hindi": "ह",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "होः",
+      "transliteration": "hoḥ",
+      "translation": "Hoh",
+      "hindi": "होः",
+      "etym": "Exclamation.",
+      "note": "Expression of joyous amazement at non-dual wisdom."
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "भगवन्",
+      "transliteration": "bhagavan",
+      "translation": "Oh Blessed One",
+      "hindi": "हे भगवान",
+      "etym": "Vocative Singular Masculine.",
+      "note": "Epithet of the Buddha."
+    },
+    {
+      "text": "सर्वतथागत",
+      "transliteration": "sarva-tathāgata",
+      "translation": "All Tathagatas",
+      "hindi": "सभी तथागत",
+      "etym": "Vocative Compound.",
+      "note": "Addressing all Enlightened Ones."
+    },
+    {
+      "text": "वज्र",
+      "transliteration": "vajra",
+      "translation": "Oh Vajra",
+      "hindi": "हे वज्र",
+      "etym": "Vocative Singular.",
+      "note": "Addressing the indestructible nature."
+    },
+    {
+      "text": "मा",
+      "transliteration": "mā",
+      "translation": "Do Not",
+      "hindi": "मत",
+      "etym": "Prohibitive particle.",
+      "note": "Used with Imperative for prohibition."
+    },
+    {
+      "text": "मे",
+      "transliteration": "me",
+      "translation": "Me",
+      "hindi": "मुझे",
+      "etym": "Accusative here (object of abandon).",
+      "note": "-"
+    },
+    {
+      "text": "मुञ्च",
+      "transliteration": "muñca",
+      "translation": "Abandon",
+      "hindi": "छोड़ो",
+      "etym": "Root: muc (to release/let go). Grammar: Imperative 2nd Person Singular.",
+      "note": "Meaning: 'Do not let me go' or 'Do not forsake me'."
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "वज्री",
+      "transliteration": "vajrī",
+      "translation": "Vajra-Holder",
+      "hindi": "वज्र धारण करने वाला",
+      "etym": "vajrin (one possessing the vajra). Grammar: Nominative Singular Masculine.",
+      "note": "Refers to the nature of the Deity (or the practitioner becoming one)."
+    },
+    {
+      "text": "भव",
+      "transliteration": "bhava",
+      "translation": "Be",
+      "hindi": "भव (हो)",
+      "etym": "Imperative.",
+      "note": "Context implies: 'You are the Vajra holder' or 'Make me a Vajra holder'."
+    },
+    {
+      "text": "महासमयसत्त्व",
+      "transliteration": "mahā-samaya-sattva",
+      "translation": "Great Bond Being",
+      "hindi": "हे महा समय सत्त्व",
+      "etym": "mahā (great) + samaya (bond/vow) + sattva (being). Grammar: Vocative Singular Masculine.",
+      "note": "The being who encompasses the great vow."
+    },
+    {
+      "text": "आः",
+      "transliteration": "āḥ",
+      "translation": "Ah",
+      "hindi": "आः",
+      "etym": "Bija Mantra.",
+      "note": "Seed syllable of Speech and the non-arising nature of phenomena."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
+},
+{
+  "type": "Namaskāra Mantra from the Devi Mahatmya / Durga Saptashati",
+  "verseIndex": "",
+  "fullTransliteration": "Sarvamaṅgalamāṅgalye śive sarvārthasādhike | Śaraṇye tryambake gauri nārāyaṇi namo'stu te ||",
+  "fullTranslation": "Oh the Auspiciousness in all that is auspicious, Oh Auspicious One, Oh Accomplisher of all objectives. Oh Source of Refuge, Oh Three-Eyed One, Oh Gauri, Oh Narayani, salutations be to You.",
+  "words": [
+    {
+      "text": "सर्वमङ्गलमाङ्गल्ये",
+      "transliteration": "sarva-maṅgala-māṅgalye",
+      "translation": "Auspiciousness of all Auspiciousness",
+      "hindi": "सभी मंगलों में मंगलमयी",
+      "etym": "Compound: sarva (all) + maṅgala (auspicious) + māṅgalye (locative/vocative of māṅgalyā - auspiciousness). Grammar: Vocative Singular Feminine.",
+      "note": "She is the essence of goodness in everything that is good."
+    },
+    {
+      "text": "शिवे",
+      "transliteration": "śive",
+      "translation": "Oh Auspicious One",
+      "hindi": "हे शिवे (कल्याणकारी)",
+      "etym": "Root: śiva (auspicious/benevolent). Grammar: Vocative Singular Feminine of Śivā (Consort of Shiva).",
+      "note": "Addressing the Goddess as the source of welfare."
+    },
+    {
+      "text": "सर्वार्थसाधिके",
+      "transliteration": "sarvārtha-sādhike",
+      "translation": "Accomplisher of All Goals",
+      "hindi": "सभी अर्थों (कामनाओं) को सिद्ध करने वाली",
+      "etym": "Compound: sarva (all) + artha (purpose/wealth) + sādhike (accomplisher). Grammar: Vocative Singular Feminine.",
+      "note": "She who grants Dharma, Artha, Kama, and Moksha."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "शरण्ये",
+      "transliteration": "śaraṇye",
+      "translation": "Oh Refuge",
+      "hindi": "शरण देने वाली",
+      "etym": "Root: śaraṇa (protection/shelter). Grammar: Vocative Singular Feminine of Śaraṇyā (Worthy of refuge).",
+      "note": "The one to whom we turn for protection."
+    },
+    {
+      "text": "त्र्यम्बके",
+      "transliteration": "tryambake",
+      "translation": "Oh Three-Eyed One",
+      "hindi": "हे त्रिनेत्रा",
+      "etym": "Compound: tri (three) + ambaka (eye). Grammar: Vocative Singular Feminine of Tryambakā.",
+      "note": "Refers to her insight into the past, present, and future (or Sun, Moon, and Fire)."
+    },
+    {
+      "text": "गौरी",
+      "transliteration": "gauri",
+      "translation": "Oh Gauri",
+      "hindi": "हे गौरी (स्वर्णवर्णा)",
+      "etym": "Root: gaurī (golden/white/shining). Grammar: Vocative Singular Feminine (Short 'i').",
+      "note": "An epithet of Parvati, signifying purity and radiance."
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "नारायणि",
+      "transliteration": "nārāyaṇi",
+      "translation": "Oh Narayani",
+      "hindi": "हे नारायणी",
+      "etym": "Feminine form of Nārāyaṇa. Grammar: Vocative Singular Feminine (Short 'i').",
+      "note": "Refers to Devi as the sister of Vishnu or the Shakti of Narayana (Maya)."
+    },
+    {
+      "text": "नमोऽस्तु",
+      "transliteration": "namo'stu",
+      "translation": "Salutations be",
+      "hindi": "नमस्कार हो",
+      "etym": "Sandhi: namaḥ (bow) + astu (let it be). Visarga becomes 'o' and 'a' is elided (avagraha ऽ).",
+      "note": "The act of surrendering."
+    },
+    {
+      "text": "ते",
+      "transliteration": "te",
+      "translation": "To You",
+      "hindi": "आपको",
+      "etym": "Pronoun: yauṣmad. Grammar: Dative Singular.",
+      "note": "The recipient of the salutation."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
 }
 ]
