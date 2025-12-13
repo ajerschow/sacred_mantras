@@ -966,5 +966,181 @@ const mantrasData = [
       "transliteration": "||"
     }
   ]
+},
+{
+  "type": "Devi Dhyana Mantra",
+  "verseIndex": "",
+  "fullTransliteration": "Oṃ jaṭājūṭasamāyuktā ardhendukṛtalakṣaṇā | Locanatrayasaṃyuktā pātu māṃ sarvatomukhī ||",
+  "fullTranslation": "Om. May She who is adorned with matted locks, who bears the mark of the crescent moon, who possesses three eyes, and who faces all directions, protect me.",
+  "words": [
+    {
+      "text": "ॐ",
+      "transliteration": "Oṃ",
+      "translation": "Om",
+      "hindi": "ॐ",
+      "etym": "The Pranava.",
+      "note": "Sacred syllable."
+    },
+    {
+      "text": "जटाजूटसमायुक्ता",
+      "transliteration": "jaṭājūṭa-samāyuktā",
+      "translation": "Adorned with Matted Locks",
+      "hindi": "जटाओं के समूह से युक्त",
+      "etym": "Compound: jaṭā (matted hair) + jūṭa (bundled/twisted hair) + samāyuktā (united with/endowed). Grammar: Nominative Singular Feminine.",
+      "note": "Describes the ascetic appearance of the Goddess (Shiva-Shakti union)."
+    },
+    {
+      "text": "अर्धेन्दुकृतलक्षणा",
+      "transliteration": "ardhendu-kṛta-lakṣaṇā",
+      "translation": "Marked by the Crescent Moon",
+      "hindi": "अर्धचंद्र के चिह्न वाली",
+      "etym": "Sandhi: ardha (half) + indu (moon) = ardhendu (Guna Sandhi). kṛta (made) + lakṣaṇā (mark/characteristic). Grammar: Nominative Singular Feminine.",
+      "note": "She wears the crescent moon like Lord Shiva (Chandrashekhara)."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "लोचनत्रयसंयुक्ता",
+      "transliteration": "locana-traya-saṃyuktā",
+      "translation": "Endowed with Three Eyes",
+      "hindi": "तीन नेत्रों से युक्त",
+      "etym": "Compound: locana (eye) + traya (three/triad) + saṃyuktā (endowed). Grammar: Nominative Singular Feminine.",
+      "note": "The third eye represents the fire of knowledge and destruction of ignorance."
+    },
+    {
+      "text": "पातु",
+      "transliteration": "pātu",
+      "translation": "May She Protect",
+      "hindi": "रक्षा करें",
+      "etym": "Root: pā (to protect). Grammar: Imperative (Lot Lakara), 3rd Person Singular.",
+      "note": "The main verb of the verse."
+    },
+    {
+      "text": "मां",
+      "transliteration": "māṃ",
+      "translation": "Me",
+      "hindi": "मेरी / मुझको",
+      "etym": "Pronoun: asmad. Grammar: Accusative Singular.",
+      "note": "The object receiving protection."
+    },
+    {
+      "text": "सर्वतोमुखी",
+      "transliteration": "sarvatomukhī",
+      "translation": "She Who Faces All Directions",
+      "hindi": "सब ओर मुख वाली (सर्वव्यापी)",
+      "etym": "sarvataḥ (from all sides/everywhere) + mukhī (faced). Grammar: Nominative Singular Feminine.",
+      "note": "Signifies her Omnipresence; she sees everything."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
+},
+{
+  "type": "Karpura Gauram Shloka",
+  "verseIndex": "",
+  "fullTransliteration": "Karpūragauraṃ karuṇāvatāraṃ saṃsārasāraṃ bhujagendrahāram | Sadāvasantaṃ hṛdayāravinde bhavaṃ bhavānīsahitaṃ namāmi ||",
+  "fullTranslation": "I bow to the One who is as pure white as camphor, the incarnation of compassion, the essence of worldly existence, and who wears the King of Serpents as a garland. I bow to Lord Shiva (Bhava), accompanied by Goddess Parvati (Bhavani), who always dwells in the lotus of the heart.",
+  "words": [
+    {
+      "text": "कर्पूरगौरं",
+      "transliteration": "karpūra-gauraṃ",
+      "translation": "White as Camphor",
+      "hindi": "कपूर के समान गौर वर्ण वाले",
+      "etym": "Compound: karpūra (camphor) + gauraṃ (white/shining). Grammar: Accusative Singular Masculine.",
+      "note": "Describes Shiva's pure, transcendental nature."
+    },
+    {
+      "text": "करुणावतारं",
+      "transliteration": "karuṇāvatāraṃ",
+      "translation": "Incarnation of Compassion",
+      "hindi": "करुणा के अवतार",
+      "etym": "Sandhi: karuṇā (compassion) + avatāraṃ (descent/incarnation). Grammar: Accusative Singular Masculine.",
+      "note": "Dirgha Sandhi (ā + a = ā). Shiva is the embodiment of mercy."
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "संसारसारं",
+      "transliteration": "saṃsāra-sāraṃ",
+      "translation": "Essence of the World",
+      "hindi": "संसार के सार (तत्व)",
+      "etym": "Compound: saṃsāra (world/cycle of existence) + sāraṃ (essence/core). Grammar: Accusative Singular Masculine.",
+      "note": "He is the only reality in the transient world."
+    },
+    {
+      "text": "भुजगेन्द्रहारम्",
+      "transliteration": "bhujagendra-hāram",
+      "translation": "Garlanded with the Snake King",
+      "hindi": "सर्पों के राजा (वासुकी) का हार पहनने वाले",
+      "etym": "Compound: bhujaga (snake) + indra (king) + hāram (garland). Grammar: Accusative Singular Masculine.",
+      "note": "Guna Sandhi (a + i = e). Refers to Vasuki around his neck."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "सदावसंतं",
+      "transliteration": "sadā-vasantaṃ",
+      "translation": "Always Dwelling",
+      "hindi": "सदा निवास करने वाले",
+      "etym": "sadā (always) + vasantaṃ (dwelling/residing). Grammar: Accusative Singular Masculine (Present Participle).",
+      "note": "Vasanta comes from root 'vas' (to live)."
+    },
+    {
+      "text": "हृदयारविन्दे",
+      "transliteration": "hṛdayāravinde",
+      "translation": "In the Lotus of the Heart",
+      "hindi": "हृदय रूपी कमल में",
+      "etym": "Sandhi: hṛdaya (heart) + aravinde (in the lotus). Grammar: Locative Singular Neuter.",
+      "note": "Dirgha Sandhi (a + a = ā). The spiritual center of the devotee."
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "भवं",
+      "transliteration": "bhavaṃ",
+      "translation": "To Bhava (Shiva)",
+      "hindi": "भगवान शिव (भव) को",
+      "etym": "Root: bhū (becoming/existence). Grammar: Accusative Singular Masculine.",
+      "note": "The object of the verb 'namāmi'."
+    },
+    {
+      "text": "भवानीसहितं",
+      "transliteration": "bhavānī-sahitaṃ",
+      "translation": "Accompanied by Bhavani",
+      "hindi": "भवानी (पार्वती) सहित",
+      "etym": "Compound: bhavānī (Parvati) + sahitaṃ (with/accompanied). Grammar: Accusative Singular Masculine.",
+      "note": "Shiva is never separate from his Shakti."
+    },
+    {
+      "text": "नमामि",
+      "transliteration": "namāmi",
+      "translation": "I Bow",
+      "hindi": "मैं नमन करता हूँ",
+      "etym": "Root: nam (to bow). Grammar: Present Indicative (Lat Lakara), 1st Person Singular.",
+      "note": "The action performed by the devotee."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
 }
 ]
