@@ -1142,5 +1142,105 @@ const mantrasData = [
       "transliteration": "||"
     }
   ]
+},
+{
+  "type": "Maha Mrityunjaya Mantra",
+  "verseIndex": "",
+  "fullTransliteration": "Oṃ tryambakaṃ yajāmahe sugandhiṃ puṣṭi-vardhanam | Urvārukamiva bandhanān mṛtyor mukṣīya mā'mṛtāt ||",
+  "fullTranslation": "Om. We worship the Three-Eyed One (Lord Shiva), who is fragrant and who nourishes all beings. As a cucumber is severed from its bondage (to the creeper), may I be liberated from death, but not from immortality.",
+  "words": [
+    {
+      "text": "ॐ",
+      "transliteration": "Oṃ",
+      "translation": "Om",
+      "hindi": "ॐ",
+      "etym": "The Pranava.",
+      "note": "The primordial sound."
+    },
+    {
+      "text": "त्र्यम्बकं",
+      "transliteration": "tryambakaṃ",
+      "translation": "The Three-Eyed One",
+      "hindi": "तीन नेत्रों वाले (शिव)",
+      "etym": "Sandhi: tri (three) + ambakam (eye/father). Grammar: Accusative Singular Masculine.",
+      "note": "Refers to Shiva who sees past, present, and future."
+    },
+    {
+      "text": "यजामहे",
+      "transliteration": "yajāmahe",
+      "translation": "We Worship",
+      "hindi": "हम यजन (पूजा) करते हैं",
+      "etym": "Root: yaj (to sacrifice/worship). Grammar: Present Indicative (Lat), 1st Person Plural (Atmanepada).",
+      "note": "The collective action of the devotees."
+    },
+    {
+      "text": "सुगन्धिं",
+      "transliteration": "sugandhiṃ",
+      "translation": "The Fragrant One",
+      "hindi": "सुगंधित",
+      "etym": "su (good) + gandha (smell). Grammar: Accusative Singular Masculine.",
+      "note": "Possessing the essence of divinity/virtue."
+    },
+    {
+      "text": "पुष्टिवर्धनम्",
+      "transliteration": "puṣṭi-vardhanam",
+      "translation": "Nourisher of Prosperity",
+      "hindi": "पुष्टि (पोषण) को बढ़ाने वाले",
+      "etym": "puṣṭi (nourishment) + vardhanam (increaser). Grammar: Accusative Singular Masculine.",
+      "note": "He who increases health and vitality."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "उर्वारुकमिव",
+      "transliteration": "urvārukam-iva",
+      "translation": "Like a Cucumber",
+      "hindi": "ककड़ी की तरह",
+      "etym": "urvārukam (cucumber) + iva (like). Grammar: Accusative Singular Neuter.",
+      "note": "Simile for effortless separation."
+    },
+    {
+      "text": "बन्धनान्",
+      "transliteration": "bandhanān",
+      "translation": "From Bondage",
+      "hindi": "बंधन (डंठल) से",
+      "etym": "Sandhi: bandhanāt (बन्धनात्). The 't' changes to 'n' before 'm'. Grammar: Ablative Singular Neuter.",
+      "note": "Refers to the stem binding the fruit to the vine."
+    },
+    {
+      "text": "मृत्योर्",
+      "transliteration": "mṛtyor",
+      "translation": "From Death",
+      "hindi": "मृत्यु से",
+      "etym": "Sandhi: mṛtyoḥ (मृत्योः). Visarga becomes 'r'. Grammar: Ablative Singular Masculine.",
+      "note": "The state of mortality/ignorance."
+    },
+    {
+      "text": "मुक्षीय",
+      "transliteration": "mukṣīya",
+      "translation": "May I be Liberated",
+      "hindi": "मैं मुक्त हो जाऊँ",
+      "etym": "Root: muc (to free). Grammar: Benedictive/Optative (Ashir Lin), 1st Person Singular (Atmanepada).",
+      "note": "A prayer for spiritual freedom (Moksha)."
+    },
+    {
+      "text": "मामृतात्",
+      "transliteration": "mā'mṛtāt",
+      "translation": "Not from Immortality",
+      "hindi": "अमृतत्व से नहीं",
+      "etym": "Sandhi: mā (not) + amṛtāt (from immortality). Savarna Dirgha Sandhi (ā + a = ā). Grammar: Ablative Singular.",
+      "note": "Meaning: 'Save me from death, but do not separate me from immortality.'"
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
 }
 ]
