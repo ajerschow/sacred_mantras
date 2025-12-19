@@ -1242,5 +1242,457 @@ const mantrasData = [
       "transliteration": "||"
     }
   ]
+},
+{
+  "type": "Saha Nāvavatu Mantra",
+  "verseIndex": "",
+  "fullTransliteration": "Oṃ saha nāvavatu | Saha nau bhunaktu | Saha vīryaṃ karavāvahai | Tejasvi nāvadhītamastu mā vidviṣāvahai | Oṃ śāntiḥ śāntiḥ śāntiḥ ||",
+  "fullTranslation": "Om. May He protect us both (teacher and student) together. May He nourish us both together. May we both work together with great energy. May our study be brilliant and effective. May there be no misunderstanding between us. Om Peace, Peace, Peace.",
+  "words": [
+    {
+      "text": "ॐ",
+      "transliteration": "Oṃ",
+      "translation": "Om",
+      "hindi": "ॐ",
+      "etym": "The Pranava.",
+      "note": "Invocation of the Supreme."
+    },
+    {
+      "text": "सह",
+      "transliteration": "saha",
+      "translation": "Together",
+      "hindi": "साथ-साथ",
+      "etym": "Indeclinable particle.",
+      "note": "Emphasizes unity in the journey."
+    },
+    {
+      "text": "नाववतु",
+      "transliteration": "nāvavatu",
+      "translation": "May He Protect Us Both",
+      "hindi": "हम दोनों की रक्षा करें",
+      "etym": "Sandhi: nau (नौ - us two) + avatu (अवतु - may he protect). nau is Accusative Dual of 'asmad'. avatu is Imperative 3rd Person Singular of root 'av'.",
+      "note": "Awadi Sandhi (au + a = āv). 'Us two' refers to Guru and Shishya."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "सह",
+      "transliteration": "saha",
+      "translation": "Together",
+      "hindi": "साथ-साथ",
+      "etym": "Indeclinable.",
+      "note": "-"
+    },
+    {
+      "text": "नौ",
+      "transliteration": "nau",
+      "translation": "Us Both",
+      "hindi": "हम दोनों को",
+      "etym": "Pronoun: asmad. Grammar: Accusative Dual.",
+      "note": "-"
+    },
+    {
+      "text": "भुनक्तु",
+      "transliteration": "bhunaktu",
+      "translation": "May He Nourish",
+      "hindi": "पालन/पोषण करें",
+      "etym": "Root: bhuj (to enjoy/eat/protect). Grammar: Imperative (Lot Lakara), 3rd Person Singular (Parasmaipada).",
+      "note": "Refers to the enjoyment of the fruits of knowledge."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "सह",
+      "transliteration": "saha",
+      "translation": "Together",
+      "hindi": "साथ में",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "वीर्यं",
+      "transliteration": "vīryaṃ",
+      "translation": "Energy/Strength",
+      "hindi": "शक्ति / पराक्रम",
+      "etym": "Root: vīr (to be brave). Grammar: Accusative Singular Neuter.",
+      "note": "The vigor required for spiritual practice."
+    },
+    {
+      "text": "करवावहै",
+      "transliteration": "karavāvahai",
+      "translation": "May We Generate",
+      "hindi": "हम प्राप्त करें / करें",
+      "etym": "Root: kṛ (to do). Grammar: Imperative (Lot), 1st Person Dual (Atmanepada).",
+      "note": "Action performed for the benefit of the self (Atmanepada)."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "तेजस्वि",
+      "transliteration": "tejasvi",
+      "translation": "Brilliant",
+      "hindi": "तेजस्वी (प्रकाशमान)",
+      "etym": "Base: tejasvin. Grammar: Nominative Singular Neuter (agreeing with adhītam).",
+      "note": "Illuminated knowledge."
+    },
+    {
+      "text": "नावधीतमस्तु",
+      "transliteration": "nāvadhītam-astu",
+      "translation": "May Our Study Be",
+      "hindi": "हम दोनों का अध्ययन हो",
+      "etym": "Sandhi: nau (of us two) + adhītam (study) + astu (let it be). nau is Genitive Dual. adhītam is Past Passive Participle. astu is Imperative of 'as'.",
+      "note": "Awadi Sandhi (au + a = āv). Meaning: Let what we have studied be full of light."
+    },
+    {
+      "text": "मा",
+      "transliteration": "mā",
+      "translation": "Do Not",
+      "hindi": "नहीं",
+      "etym": "Prohibitive particle.",
+      "note": "-"
+    },
+    {
+      "text": "विद्विषावहै",
+      "transliteration": "vidviṣāvahai",
+      "translation": "May We Hate",
+      "hindi": "हम द्वेष करें",
+      "etym": "Prefix: vi + Root: dviṣ (to hate). Grammar: Imperative, 1st Person Dual (Atmanepada).",
+      "note": "With 'mā', it means 'May we never dislike each other' (removing misunderstandings)."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "ॐ",
+      "transliteration": "Oṃ",
+      "translation": "Om",
+      "hindi": "ॐ",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "शान्तिः",
+      "transliteration": "śāntiḥ",
+      "translation": "Peace",
+      "hindi": "शांति (दैहिक)",
+      "etym": "Root: śam (to be calm).",
+      "note": "Peace from physical obstacles (Adhi-bhautika)."
+    },
+    {
+      "text": "शान्तिः",
+      "transliteration": "śāntiḥ",
+      "translation": "Peace",
+      "hindi": "शांति (दैविक)",
+      "etym": "-",
+      "note": "Peace from natural/divine disturbances (Adhi-daivika)."
+    },
+    {
+      "text": "शान्तिः",
+      "transliteration": "śāntiḥ",
+      "translation": "Peace",
+      "hindi": "शांति (आत्मिक)",
+      "etym": "-",
+      "note": "Peace from internal disturbances (Adhyātmika)."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
+},
+{
+  "type": "Pavamana Mantra",
+  "verseIndex": "",
+  "fullTransliteration": "Oṃ asato mā sadgamaya | Tamaso mā jyotirgamaya | Mṛtyor mā'mṛtaṃ gamaya | Oṃ śāntiḥ śāntiḥ śāntiḥ ||",
+  "fullTranslation": "Om. Lead me from the unreal to the real. Lead me from darkness to light. Lead me from death to immortality. Om Peace, Peace, Peace.",
+  "words": [
+    {
+      "text": "ॐ",
+      "transliteration": "Oṃ",
+      "translation": "Om",
+      "hindi": "ॐ",
+      "etym": "The Pranava.",
+      "note": "The primordial sound."
+    },
+    {
+      "text": "असतो",
+      "transliteration": "asato",
+      "translation": "From the Unreal",
+      "hindi": "असत्य से",
+      "etym": "Sandhi: asataḥ (असतः). Root: as (to be) -> a-sat (non-existence/untruth). Grammar: Ablative Singular Neuter.",
+      "note": "Visarga becomes 'o' before voiced 'm'. Refers to the illusory world."
+    },
+    {
+      "text": "मा",
+      "transliteration": "mā",
+      "translation": "Me",
+      "hindi": "मुझे",
+      "etym": "Pronoun: asmad. Grammar: Accusative Singular.",
+      "note": "The object of the verb 'lead'."
+    },
+    {
+      "text": "सद्गमय",
+      "transliteration": "sad-gamaya",
+      "translation": "Lead to the Real",
+      "hindi": "सत्य की ओर ले चलो",
+      "etym": "Sandhi: sat (सत् - Truth/Real) + gamaya (lead). The 't' changes to 'd' (Jashvta Sandhi) before voiced 'g'. Grammar: sat is Accusative Singular. gamaya is Causative Imperative, 2nd Person Singular.",
+      "note": "Guide me to the Ultimate Reality."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "तमसो",
+      "transliteration": "tamaso",
+      "translation": "From Darkness",
+      "hindi": "अंधकार से",
+      "etym": "Sandhi: tamasaḥ (तमसः). Visarga becomes 'o' (Utva Sandhi) before voiced 'm'. Grammar: Ablative Singular Neuter.",
+      "note": "Refers to the darkness of ignorance (avidya)."
+    },
+    {
+      "text": "मा",
+      "transliteration": "mā",
+      "translation": "Me",
+      "hindi": "मुझे",
+      "etym": "Accusative Singular.",
+      "note": "-"
+    },
+    {
+      "text": "ज्योतिर्गमय",
+      "transliteration": "jyotir-gamaya",
+      "translation": "Lead to Light",
+      "hindi": "प्रकाश की ओर ले चलो",
+      "etym": "Sandhi: jyotiḥ (ज्योतिः - Light) + gamaya. Visarga becomes 'r' (Rutva Sandhi) before voiced 'g'. Grammar: jyotiḥ is Accusative Singular Neuter.",
+      "note": "Refers to the light of Knowledge/Wisdom."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "मृत्योर्",
+      "transliteration": "mṛtyor",
+      "translation": "From Death",
+      "hindi": "मृत्यु से",
+      "etym": "Sandhi: mṛtyoḥ (मृत्योः). Visarga becomes 'r' (Rutva Sandhi) before voiced 'm'. Grammar: Ablative Singular Masculine.",
+      "note": "Refers to the cycle of Samsara (birth and death)."
+    },
+    {
+      "text": "मा",
+      "transliteration": "mā",
+      "translation": "Me",
+      "hindi": "मुझे",
+      "etym": "Accusative Singular.",
+      "note": "-"
+    },
+    {
+      "text": "ऽमृतं",
+      "transliteration": "'mṛtaṃ",
+      "translation": "To Immortality",
+      "hindi": "अमरता की ओर",
+      "etym": "Sandhi: mā + amṛtam. Savarna Dirgha Sandhi (ā + a = ā). Represented by Avagraha (ऽ) to show the merged vowel. Grammar: Accusative Singular Neuter.",
+      "note": "Refers to Moksha (Liberation)."
+    },
+    {
+      "text": "गमय",
+      "transliteration": "gamaya",
+      "translation": "Lead",
+      "hindi": "ले चलो",
+      "etym": "Root: gam (to go). Grammar: Causative Imperative, 2nd Person Singular.",
+      "note": "-"
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "ॐ",
+      "transliteration": "Oṃ",
+      "translation": "Om",
+      "hindi": "ॐ",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "शान्तिः",
+      "transliteration": "śāntiḥ",
+      "translation": "Peace",
+      "hindi": "शांति",
+      "etym": "Root: śam. Grammar: Nominative Singular Feminine.",
+      "note": "Peace from Adhi-bhautika (physical) obstacles."
+    },
+    {
+      "text": "शान्तिः",
+      "transliteration": "śāntiḥ",
+      "translation": "Peace",
+      "hindi": "शांति",
+      "etym": "-",
+      "note": "Peace from Adhi-daivika (divine/natural) obstacles."
+    },
+    {
+      "text": "शान्तिः",
+      "transliteration": "śāntiḥ",
+      "translation": "Peace",
+      "hindi": "शांति",
+      "etym": "-",
+      "note": "Peace from Adhyātmika (internal/self) obstacles."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
+},
+{
+  "type": "Anusara Invocation",
+  "verseIndex": "",
+  "fullTransliteration": "Oṃ namaḥ śivāya gurave | Saccidānanda-mūrtaye | Niṣprapañcāya śāntāya | Nirālambāya tejase ||",
+  "fullTranslation": "Om. I bow to Shiva, the Supreme Teacher, who is the embodiment of Truth, Consciousness, and Bliss. I bow to Him who is beyond this world, who is Peace, who is independent of all support, and who is the illuminating Light.",
+  "words": [
+    {
+      "text": "ॐ",
+      "transliteration": "Oṃ",
+      "translation": "Om",
+      "hindi": "ॐ",
+      "etym": "The Pranava.",
+      "note": "The sacred primordial sound."
+    },
+    {
+      "text": "नमः",
+      "transliteration": "namaḥ",
+      "translation": "Salutations",
+      "hindi": "नमस्कार / नमन",
+      "etym": "Indeclinable. Root: nam (to bow).",
+      "note": "Governs the Dative case (implies 'to')."
+    },
+    {
+      "text": "शिवाय",
+      "transliteration": "śivāya",
+      "translation": "To Shiva",
+      "hindi": "शिव (कल्याणस्वरूप) को",
+      "etym": "Root: śi (in whom all things lie). Grammar: Dative Singular Masculine of 'Śiva'.",
+      "note": "The Auspicious One; the Supreme Self."
+    },
+    {
+      "text": "गुरवे",
+      "transliteration": "gurave",
+      "translation": "To the Guru",
+      "hindi": "गुरु (अंधकार मिटाने वाले) को",
+      "etym": "Root: gṝ (to invoke/swallow darkness). Grammar: Dative Singular Masculine of 'Guru' (u-stem noun).",
+      "note": "The spiritual teacher or the inner guiding light."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "सच्चिदानन्द",
+      "transliteration": "sac-cid-ānanda",
+      "translation": "Truth-Consciousness-Bliss",
+      "hindi": "सत्-चित्-आनंद",
+      "etym": "Sandhi: sat (existence) + cit (consciousness) + ānanda (bliss). 't' becomes 'c' before 'c' (Schutva Sandhi).",
+      "note": "The essential nature of the Divine."
+    },
+    {
+      "text": "मूर्तये",
+      "transliteration": "mūrtaye",
+      "translation": "To the Form/Embodiment",
+      "hindi": "मूर्ति (स्वरूप) को",
+      "etym": "Root: mūrch (to thicken/solidify). Grammar: Dative Singular Masculine of 'Mūrti' (i-stem noun).",
+      "note": "He who takes the form of Existence-Knowledge-Bliss."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "निष्प्रपञ्चाय",
+      "transliteration": "niṣprapañcāya",
+      "translation": "To the Transcendent One",
+      "hindi": "प्रपंच (संसार) से रहित को",
+      "etym": "Compound: nis (without) + prapañca (expansion/manifest world). Grammar: Dative Singular Masculine.",
+      "note": "He who is beyond the illusion of worldly multiplicity."
+    },
+    {
+      "text": "शान्ताय",
+      "transliteration": "śāntāya",
+      "translation": "To the Peaceful",
+      "hindi": "शांत स्वरूप को",
+      "etym": "Root: śam (to be calm). Grammar: Dative Singular Masculine.",
+      "note": "He who is the embodiment of absolute peace."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "निरालम्बाय",
+      "transliteration": "nirālambāya",
+      "translation": "To the Independent",
+      "hindi": "आलंबन (सहारे) से रहित को",
+      "etym": "Compound: nir (without) + ālamba (support). Grammar: Dative Singular Masculine.",
+      "note": "He who needs no support because He supports everything else."
+    },
+    {
+      "text": "तेजसे",
+      "transliteration": "tejase",
+      "translation": "To the Radiance",
+      "hindi": "तेज (प्रकाश) स्वरूप को",
+      "etym": "Root: tij (to be sharp/shine). Grammar: Dative Singular Neuter of 'Tejas' (s-stem noun).",
+      "note": "The illuminating light of consciousness."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
 }
 ]
