@@ -1694,5 +1694,153 @@ const mantrasData = [
       "transliteration": "||"
     }
   ]
+},
+{
+  "type": "Cirañjīviśloka (चिरञ्जीविश्लोक)",
+  "verseIndex": "",
+  "fullTransliteration": "Aśvatthāmā balirvyāso hanumāṃśca vibhīṣaṇaḥ | Kṛpaḥ paraśurāmaśca saptaite cirañjīvinaḥ || Saptaitān saṃsmarennityaṃ mārkaṇḍeyamathāṣṭamam | Jīvedvarṣaśataṃ so'pi sarvavyādhivivarjitaḥ ||",
+  "fullTranslation": "Ashwatthama, King Bali, Vyasa, Hanuman, Vibhishana, Kripacharya, and Parashurama; these are the seven Chiranjeevis (Immortals). One who remembers these seven daily, along with Markandeya as the eighth, lives for a hundred years, free from all diseases.",
+  "words": [
+    {
+      "text": "अश्वत्थामा",
+      "transliteration": "aśvatthāmā",
+      "translation": "Ashwatthama",
+      "hindi": "अश्वत्थामा (द्रोण पुत्र)",
+      "etym": "Noun. Grammar: Nominative Singular Masculine.",
+      "note": "Son of Drona, cursed to roam the earth eternally."
+    },
+    {
+      "text": "बलिर्व्यासो",
+      "transliteration": "balir-vyāso",
+      "translation": "Bali and Vyasa",
+      "hindi": "राजा बलि और महर्षि व्यास",
+      "etym": "Sandhi: baliḥ (बलिः) + vyāsaḥ (व्यासः). Visarga becomes 'r' before 'v'. Grammar: Nominative Singular Masculine.",
+      "note": "Bali: The generous Daitya King. Vyasa: Author of the Mahabharata."
+    },
+    {
+      "text": "हनुमांश्च",
+      "transliteration": "hanumāṃśca",
+      "translation": "And Hanuman",
+      "hindi": "और हनुमान जी",
+      "etym": "Sandhi: hanumān (हनुमान्) + ca (च). 'n' becomes anusvara and 's' is inserted (Schutva Sandhi).",
+      "note": "The supreme devotee of Lord Rama."
+    },
+    {
+      "text": "विभीषणः",
+      "transliteration": "vibhīṣaṇaḥ",
+      "translation": "Vibhishana",
+      "hindi": "विभीषण",
+      "etym": "Noun. Grammar: Nominative Singular Masculine.",
+      "note": "Ravana's brother who stood for righteousness."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "कृपः",
+      "transliteration": "kṛpaḥ",
+      "translation": "Kripacharya",
+      "hindi": "कृपाचार्य",
+      "etym": "Noun. Grammar: Nominative Singular Masculine.",
+      "note": "The Royal Guru of the Kuru dynasty."
+    },
+    {
+      "text": "परशुरामश्च",
+      "transliteration": "paraśurāmaśca",
+      "translation": "And Parashurama",
+      "hindi": "और परशुराम",
+      "etym": "Sandhi: paraśurāmaḥ (परशुरामः) + ca (च). Visarga becomes 'ś' (Schutva Sandhi).",
+      "note": "The warrior avatar of Vishnu."
+    },
+    {
+      "text": "सप्तैते",
+      "transliteration": "saptaite",
+      "translation": "These Seven",
+      "hindi": "ये सात",
+      "etym": "Sandhi: sapta (seven) + ete (these). Vriddhi Sandhi (a + e = ai). Grammar: Nominative Plural Masculine.",
+      "note": "Refers to the group listed above."
+    },
+    {
+      "text": "चिरञ्जीविनः",
+      "transliteration": "cirañjīvinaḥ",
+      "translation": "The Immortals",
+      "hindi": "चिरंजीवी (अमर)",
+      "etym": "ciram (long time) + jīvinaḥ (living). Grammar: Nominative Plural Masculine.",
+      "note": "Those who live until the end of the Kalpa."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "सप्तैतान्",
+      "transliteration": "saptaitān",
+      "translation": "These Seven",
+      "hindi": "इन सातों को",
+      "etym": "Sandhi: sapta (seven) + etān (these). Vriddhi Sandhi (a + e = ai). Grammar: Accusative Plural Masculine.",
+      "note": "Object of the verb 'remember'."
+    },
+    {
+      "text": "संस्मरेन्नित्यं",
+      "transliteration": "saṃsmaren-nityaṃ",
+      "translation": "Should Remember Daily",
+      "hindi": "प्रतिदिन स्मरण करें",
+      "etym": "Sandhi: saṃsmaret (should remember) + nityam (daily). 't' becomes 'n' (Anunasika Sandhi). Grammar: Potential (Vidhilin), 3rd Person Singular.",
+      "note": "Instruction for the devotee."
+    },
+    {
+      "text": "मार्कण्डेयमथाष्टमम्",
+      "transliteration": "mārkaṇḍeyam-athāṣṭamam",
+      "translation": "And Markandeya the Eighth",
+      "hindi": "और आठवें मार्कण्डेय को",
+      "etym": "Sandhi: mārkaṇḍeyam (Markandeya) + atha (then/also) + aṣṭamam (eighth). Savarna Dirgha Sandhi (a + a = ā).",
+      "note": "Sage Markandeya is added as the 8th immortal."
+    },
+    {
+      "text": "|",
+      "transliteration": "|"
+    },
+    {
+      "text": "<br>",
+      "transliteration": "<br>"
+    },
+    {
+      "text": "जीवेद्वर्षशतं",
+      "transliteration": "jīved-varṣaśataṃ",
+      "translation": "Lives for 100 Years",
+      "hindi": "सौ वर्ष तक जीता है",
+      "etym": "Sandhi: jīvet (should live) + varṣaśataṃ (century). 't' becomes 'd' (Jashvta Sandhi).",
+      "note": "The fruit (phala) of the prayer."
+    },
+    {
+      "text": "सोऽपि",
+      "transliteration": "so'pi",
+      "translation": "He Also",
+      "hindi": "वह भी",
+      "etym": "Sandhi: saḥ (he) + api (also). Visarga -> o, a -> Avagraha (Utva Sandhi).",
+      "note": "-"
+    },
+    {
+      "text": "सर्वव्याधिविवर्जितः",
+      "transliteration": "sarvavyādhi-vivarjitaḥ",
+      "translation": "Free from All Diseases",
+      "hindi": "सभी रोगों से मुक्त",
+      "etym": "Compound: sarva (all) + vyādhi (disease) + vivarjitaḥ (abandoned/freed). Grammar: Nominative Singular Masculine.",
+      "note": "Total health and well-being."
+    },
+    {
+      "text": "||",
+      "transliteration": "||"
+    }
+  ]
 }
 ]
