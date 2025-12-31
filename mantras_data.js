@@ -1,122 +1,6 @@
 // decide whether should make it into json format (could not hurt)
 const mantrasData = [
-{
-        type: "Invocation to Patanjali",
-        verseIndex: "",
-        fullTransliteration: "Yogena cittasya padena vācāṃ malaṃ śarīrasya ca vaidyakena | Yopākarottaṃ pravaraṃ munīnāṃ patañjaliṃ prāñjalirānato’smi ||",
-        fullTranslation: "I bow with folded hands to Patanjali, the greatest of sages, who removed the impurities of the mind through Yoga, of speech through Grammar, and of the body through Medicine.",
-        words: [
-            { 
-                text: "योगेन", 
-                transliteration: "yogena", 
-                translation: "By Yoga", 
-                hindi: "योग के द्वारा", 
-                etym: "Root: yoga (योग). Grammar: Instrumental Singular (Tritiya Vibhakti). Usage: 'Through/By means of Yoga'.", 
-                note: "Refers to the Yoga Sutras for purifying the mind." 
-            },
-            { 
-                text: "चित्तस्य", 
-                transliteration: "cittasya", 
-                translation: "Of the mind", 
-                hindi: "चित्त का", 
-                etym: "Root: citta (चित्त). Grammar: Genitive Singular (Shasthi Vibhakti). Usage: 'Belonging to the consciousness'.", 
-                note: "Citta includes mind, intellect, and ego." 
-            },
-            { 
-                text: "पदेन", 
-                transliteration: "padena", 
-                translation: "By Grammar/Words", 
-                hindi: "पद (व्याकरण) के द्वारा", 
-                etym: "Root: pada (पद). Grammar: Instrumental Singular. Lit: 'By the word/foot'. Refers to Vyakarana (Grammar).", 
-                note: "Refers to the Mahabhashya (commentary on grammar) for purifying speech." 
-            },
-            { 
-                text: "वाचाम्", 
-                transliteration: "vācām", 
-                translation: "Of speech", 
-                hindi: "वाणी की", 
-                etym: "Root: vāc (वाच्). Grammar: Genitive Plural (Shasthi Vibhakti).", 
-                note: "Impurity of speech is removed by correct grammar." 
-            },
-            { text: "<br>", transliteration: "<br>"},
-            { 
-                text: "मलम्", 
-                transliteration: "malam", 
-                translation: "Impurity", 
-                hindi: "मल / दोष", 
-                etym: "Root: mala (मल). Grammar: Accusative Singular (Dvitiya Vibhakti). Object of 'removed'.", 
-                note: "The dirt or defects of the three levels of human existence." 
-            },
-            { 
-                text: "शरीरस्य", 
-                transliteration: "śarīrasya", 
-                translation: "Of the body", 
-                hindi: "शरीर का", 
-                etym: "Root: śarīra (शरीर). Grammar: Genitive Singular (Shasthi Vibhakti).", 
-                note: "-" 
-            },
-            { 
-                text: "च", 
-                transliteration: "ca", 
-                translation: "And", 
-                hindi: "और", 
-                etym: "Indeclinable conjunction.", 
-                note: "-" 
-            },
-            { 
-                text: "वैद्यकेन", 
-                transliteration: "vaidyakena", 
-                translation: "By Medicine", 
-                hindi: "वैद्यक (आयुर्वेद) के द्वारा", 
-                etym: "Root: vaidyaka (वैद्यक). Grammar: Instrumental Singular. Refers to Ayurveda.", 
-                note: "Patanjali is traditionally credited with writing the Charaka Samhita (or a commentary on it) to purify the body." 
-            },
-            { text: "|", transliteration: "|"},
-            { text: "<br>", transliteration: "<br>"},
-            { 
-                text: "योपाकरोत्तम्", 
-                transliteration: "yopākarottam", 
-                translation: "Who removed him", 
-                hindi: "जिन्होंने दूर किया उसको", 
-                etym: "Sandhi: yaḥ (यः) + apākarot (अपाकरोत्) + tam (तम्). 1. yaḥ: 'Who' (Nom. Sg). 2. apākarot: 'Removed' (Verb, Imperfect Past, 3rd Person Sg). 3. tam: 'Him' (Acc. Sg).", 
-                note: "Combines the subject (who), the action (removed), and the object (him/that impurity)." 
-            },
-            { 
-                text: "प्रवरम्", 
-                transliteration: "pravaram", 
-                translation: "Best/Excellent", 
-                hindi: "श्रेष्ठ", 
-                etym: "Root: pravara (प्रवर). Grammar: Accusative Singular. Adjective describing Patanjali.", 
-                note: "The most exalted among the Munis." 
-            },
-            { 
-                text: "मुनीनाम्", 
-                transliteration: "munīnām", 
-                translation: "Of sages", 
-                hindi: "मुनियों में", 
-                etym: "Root: muni (मुनि). Grammar: Genitive Plural (Shasthi Vibhakti).", 
-                note: "-" 
-            },
-            { text: "<br>", transliteration: "<br>"},
-            { 
-                text: "पतञ्जलिम्", 
-                transliteration: "patañjalim", 
-                translation: "To Patanjali", 
-                hindi: "पतंजलि को", 
-                etym: "Root: patañjali (पतञ्जलि). Grammar: Accusative Singular (Dvitiya Vibhakti). The object of the bow.", 
-                note: "The sage who compiled the Yoga Sutras." 
-            },
-            { 
-                text: "प्राञ्जलिरानतोऽस्मि", 
-                transliteration: "prāñjalirānato’smi", 
-                translation: "I bow with folded hands", 
-                hindi: "मैं हाथ जोड़कर नमन करता हूँ", 
-                etym: "Sandhi: prāñjaliḥ (प्राञ्जलिः) + ānataḥ (आनतः) + asmi (अस्मि). 1. prāñjaliḥ: 'Hands folded' (Nom. Sg). 2. ānataḥ: 'Bowed' (Past Participle, Nom. Sg). 3. asmi: 'I am' (Verb, Present Tense, 1st Person Sg).", 
-                note: "The complete action of the devotee surrendering to the teacher." 
-            },
-            { text: "||", transliteration: "||"},
-        ]
-    },
+
     {
         type: "Gayatri Mantra",
         verseIndex: "", // You can adjust this index based on where you place it
@@ -2312,6 +2196,291 @@ const mantrasData = [
       "hindi": "गए, गए...",
       "etym": "See previous entry.",
       "note": "The Mantra."
+    }
+  ]
+},
+{
+        type: "Invocation to Patanjali",
+        verseIndex: "",
+        fullTransliteration: "Yogena cittasya padena vācāṃ malaṃ śarīrasya ca vaidyakena | Yopākarottaṃ pravaraṃ munīnāṃ patañjaliṃ prāñjalirānato’smi ||",
+        fullTranslation: "I bow with folded hands to Patanjali, the greatest of sages, who removed the impurities of the mind through Yoga, of speech through Grammar, and of the body through Medicine.",
+        words: [
+            { 
+                text: "योगेन", 
+                transliteration: "yogena", 
+                translation: "By Yoga", 
+                hindi: "योग के द्वारा", 
+                etym: "Root: yoga (योग). Grammar: Instrumental Singular (Tritiya Vibhakti). Usage: 'Through/By means of Yoga'.", 
+                note: "Refers to the Yoga Sutras for purifying the mind." 
+            },
+            { 
+                text: "चित्तस्य", 
+                transliteration: "cittasya", 
+                translation: "Of the mind", 
+                hindi: "चित्त का", 
+                etym: "Root: citta (चित्त). Grammar: Genitive Singular (Shasthi Vibhakti). Usage: 'Belonging to the consciousness'.", 
+                note: "Citta includes mind, intellect, and ego." 
+            },
+            { 
+                text: "पदेन", 
+                transliteration: "padena", 
+                translation: "By Grammar/Words", 
+                hindi: "पद (व्याकरण) के द्वारा", 
+                etym: "Root: pada (पद). Grammar: Instrumental Singular. Lit: 'By the word/foot'. Refers to Vyakarana (Grammar).", 
+                note: "Refers to the Mahabhashya (commentary on grammar) for purifying speech." 
+            },
+            { 
+                text: "वाचाम्", 
+                transliteration: "vācām", 
+                translation: "Of speech", 
+                hindi: "वाणी की", 
+                etym: "Root: vāc (वाच्). Grammar: Genitive Plural (Shasthi Vibhakti).", 
+                note: "Impurity of speech is removed by correct grammar." 
+            },
+            { text: "<br>", transliteration: "<br>"},
+            { 
+                text: "मलम्", 
+                transliteration: "malam", 
+                translation: "Impurity", 
+                hindi: "मल / दोष", 
+                etym: "Root: mala (मल). Grammar: Accusative Singular (Dvitiya Vibhakti). Object of 'removed'.", 
+                note: "The dirt or defects of the three levels of human existence." 
+            },
+            { 
+                text: "शरीरस्य", 
+                transliteration: "śarīrasya", 
+                translation: "Of the body", 
+                hindi: "शरीर का", 
+                etym: "Root: śarīra (शरीर). Grammar: Genitive Singular (Shasthi Vibhakti).", 
+                note: "-" 
+            },
+            { 
+                text: "च", 
+                transliteration: "ca", 
+                translation: "And", 
+                hindi: "और", 
+                etym: "Indeclinable conjunction.", 
+                note: "-" 
+            },
+            { 
+                text: "वैद्यकेन", 
+                transliteration: "vaidyakena", 
+                translation: "By Medicine", 
+                hindi: "वैद्यक (आयुर्वेद) के द्वारा", 
+                etym: "Root: vaidyaka (वैद्यक). Grammar: Instrumental Singular. Refers to Ayurveda.", 
+                note: "Patanjali is traditionally credited with writing the Charaka Samhita (or a commentary on it) to purify the body." 
+            },
+            { text: "|", transliteration: "|"},
+            { text: "<br>", transliteration: "<br>"},
+            { 
+                text: "योपाकरोत्तम्", 
+                transliteration: "yopākarottam", 
+                translation: "Who removed him", 
+                hindi: "जिन्होंने दूर किया उसको", 
+                etym: "Sandhi: yaḥ (यः) + apākarot (अपाकरोत्) + tam (तम्). 1. yaḥ: 'Who' (Nom. Sg). 2. apākarot: 'Removed' (Verb, Imperfect Past, 3rd Person Sg). 3. tam: 'Him' (Acc. Sg).", 
+                note: "Combines the subject (who), the action (removed), and the object (him/that impurity)." 
+            },
+            { 
+                text: "प्रवरम्", 
+                transliteration: "pravaram", 
+                translation: "Best/Excellent", 
+                hindi: "श्रेष्ठ", 
+                etym: "Root: pravara (प्रवर). Grammar: Accusative Singular. Adjective describing Patanjali.", 
+                note: "The most exalted among the Munis." 
+            },
+            { 
+                text: "मुनीनाम्", 
+                transliteration: "munīnām", 
+                translation: "Of sages", 
+                hindi: "मुनियों में", 
+                etym: "Root: muni (मुनि). Grammar: Genitive Plural (Shasthi Vibhakti).", 
+                note: "-" 
+            },
+            { text: "<br>", transliteration: "<br>"},
+            { 
+                text: "पतञ्जलिम्", 
+                transliteration: "patañjalim", 
+                translation: "To Patanjali", 
+                hindi: "पतंजलि को", 
+                etym: "Root: patañjali (पतञ्जलि). Grammar: Accusative Singular (Dvitiya Vibhakti). The object of the bow.", 
+                note: "The sage who compiled the Yoga Sutras." 
+            },
+            { 
+                text: "प्राञ्जलिरानतोऽस्मि", 
+                transliteration: "prāñjalirānato’smi", 
+                translation: "I bow with folded hands", 
+                hindi: "मैं हाथ जोड़कर नमन करता हूँ", 
+                etym: "Sandhi: prāñjaliḥ (प्राञ्जलिः) + ānataḥ (आनतः) + asmi (अस्मि). 1. prāñjaliḥ: 'Hands folded' (Nom. Sg). 2. ānataḥ: 'Bowed' (Past Participle, Nom. Sg). 3. asmi: 'I am' (Verb, Present Tense, 1st Person Sg).", 
+                note: "The complete action of the devotee surrendering to the teacher." 
+            },
+            { text: "||", transliteration: "||"},
+        ]
+    },
+{
+  "type": "Reference List",
+  "verseIndex": "Common Yoga Asanas (Selected Compilation)",
+  "fullTransliteration": "Tāḍāsana Vṛkṣāsana Utkaṭāsana Trikoṇāsana Vīrabhadrāsana | Pādahastāsana Adhomukhaśvānāsana Bālāsana Padmāsana Vajrāsana | Paścimottānāsana Jānuśīrṣāsana Baddhakoṇāsana Marjāryāsana Bhujaṅgāsana | Dhanurāsana Setubandhāsana Sarvāṅgāsana Śīrṣāsana Śavāsana ||",
+  "fullTranslation": "Mountain, Tree, Chair, Triangle, Warrior, Hand-to-Foot, Downward Dog, Child, Lotus, Thunderbolt, Seated Forward Bend, Head-to-Knee, Bound Angle, Cat, Cobra, Bow, Bridge, Shoulderstand, Headstand, and Corpse Pose.",
+  "words": [
+    {
+      "text": "ताडासन",
+      "transliteration": "tāḍāsana",
+      "translation": "Mountain Pose",
+      "hindi": "ताड़ासन",
+      "etym": "tāḍa (mountain/palm tree) + āsana (seat/posture).",
+      "note": "The foundational standing posture."
+    },
+    {
+      "text": "वृक्षासन",
+      "transliteration": "vṛkṣāsana",
+      "translation": "Tree Pose",
+      "hindi": "वृक्षासन",
+      "etym": "vṛkṣa (tree).",
+      "note": "A standing balance pose."
+    },
+    {
+      "text": "उत्कटासन",
+      "transliteration": "utkaṭāsana",
+      "translation": "Chair Pose / Fierce Pose",
+      "hindi": "उत्कटासन",
+      "etym": "utkaṭa (fierce/intense/immense).",
+      "note": "Simulates sitting in a chair."
+    },
+    {
+      "text": "त्रिकोणासन",
+      "transliteration": "trikoṇāsana",
+      "translation": "Triangle Pose",
+      "hindi": "त्रिकोणासन",
+      "etym": "tri (three) + koṇa (angle).",
+      "note": "Lateral standing stretch."
+    },
+    {
+      "text": "वीरभद्रासन",
+      "transliteration": "vīrabhadrāsana",
+      "translation": "Warrior Pose",
+      "hindi": "वीरभद्रासन",
+      "etym": "Vīrabhadra (mythical warrior created by Shiva).",
+      "note": "Includes variations I, II, and III."
+    },
+    {
+      "text": "पादहस्तासन",
+      "transliteration": "pādahastāsana",
+      "translation": "Hand-to-Foot Pose",
+      "hindi": "पादहस्तासन",
+      "etym": "pāda (foot) + hasta (hand).",
+      "note": "Standing forward bend."
+    },
+    {
+      "text": "अधोमुखश्वानासन",
+      "transliteration": "adhomukhaśvānāsana",
+      "translation": "Downward-Facing Dog",
+      "hindi": "अधोमुखश्वानासन",
+      "etym": "adhas (down) + mukha (face) + śvāna (dog).",
+      "note": "Looks like a dog stretching."
+    },
+    {
+      "text": "बालासन",
+      "transliteration": "bālāsana",
+      "translation": "Child's Pose",
+      "hindi": "बालासन",
+      "etym": "bāla (child).",
+      "note": "Resting pose."
+    },
+    {
+      "text": "पद्मासन",
+      "transliteration": "padmāsana",
+      "translation": "Lotus Pose",
+      "hindi": "पद्मासन",
+      "etym": "padma (lotus).",
+      "note": "Classic meditation posture."
+    },
+    {
+      "text": "वज्रासन",
+      "transliteration": "vajrāsana",
+      "translation": "Thunderbolt Pose",
+      "hindi": "वज्रासन",
+      "etym": "vajra (thunderbolt/diamond).",
+      "note": "Kneeling pose, aids digestion."
+    },
+    {
+      "text": "पश्चिमोत्तानासन",
+      "transliteration": "paścimottānāsana",
+      "translation": "Seated Forward Bend",
+      "hindi": "पश्चिमोत्तानासन",
+      "etym": "paścima (west/back of body) + uttāna (intense stretch).",
+      "note": "Stretching the back (west side) of the body."
+    },
+    {
+      "text": "जानुशीर्षासन",
+      "transliteration": "jānuśīrṣāsana",
+      "translation": "Head-to-Knee Pose",
+      "hindi": "जानुशीर्षासन",
+      "etym": "jānu (knee) + śīrṣa (head).",
+      "note": "One-legged forward fold."
+    },
+    {
+      "text": "बद्धकोणासन",
+      "transliteration": "baddhakoṇāsana",
+      "translation": "Bound Angle Pose (Butterfly)",
+      "hindi": "बद्धकोणासन",
+      "etym": "baddha (bound) + koṇa (angle).",
+      "note": "Hip opener."
+    },
+    {
+      "text": "मार्जार्यासन",
+      "transliteration": "marjāryāsana",
+      "translation": "Cat Pose",
+      "hindi": "मार्जार्यासन",
+      "etym": "mārjārī (cat).",
+      "note": "Spinal warm-up."
+    },
+    {
+      "text": "भुजङ्गासन",
+      "transliteration": "bhujaṅgāsana",
+      "translation": "Cobra Pose",
+      "hindi": "भुजंगासन",
+      "etym": "bhujaṅga (serpent/cobra).",
+      "note": "Backbend."
+    },
+    {
+      "text": "धनुरासन",
+      "transliteration": "dhanurāsana",
+      "translation": "Bow Pose",
+      "hindi": "धनुरासन",
+      "etym": "dhanura (bow).",
+      "note": "Body takes the shape of an archer's bow."
+    },
+    {
+      "text": "सेतुबन्धासन",
+      "transliteration": "setubandhāsana",
+      "translation": "Bridge Pose",
+      "hindi": "सेतुबंधासन",
+      "etym": "setu (bridge) + bandha (lock/construction).",
+      "note": "Reclined backbend."
+    },
+    {
+      "text": "सर्वाङ्गासन",
+      "transliteration": "sarvāṅgāsana",
+      "translation": "Shoulderstand",
+      "hindi": "सर्वांगासन",
+      "etym": "sarva (all) + aṅga (limb).",
+      "note": "Pose for 'all limbs'."
+    },
+    {
+      "text": "शीर्षासन",
+      "transliteration": "śīrṣāsana",
+      "translation": "Headstand",
+      "hindi": "शीर्षासन",
+      "etym": "śīrṣa (head).",
+      "note": "King of Asanas."
+    },
+    {
+      "text": "शवासन",
+      "transliteration": "śavāsana",
+      "translation": "Corpse Pose",
+      "hindi": "शवासन",
+      "etym": "śava (corpse).",
+      "note": "Final relaxation."
     }
   ]
 }
