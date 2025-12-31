@@ -1842,5 +1842,477 @@ const mantrasData = [
       "transliteration": "||"
     }
   ]
+},
+{
+  "type": "Sutra Passage",
+  "verseIndex": "Heart Sutra 1",
+  "fullTransliteration": "Oṃ namo bhagavatyai ārya-prajñāpāramitāyai | Āryāvalokiteśvaro bodhisattvo gambhīrāṃ prajñāpāramitā-caryāṃ caramāṇo vyavalokayati sma | Pañca-skandhās tāṃś ca svabhāva-śūnyān paśyati sma ||",
+  "fullTranslation": "Om, homage to the Blessed Noble Perfection of Wisdom. The Noble Bodhisattva Avalokiteshvara, while practicing the deep practice of the Perfection of Wisdom, looked down; he beheld the five aggregates and saw that they were empty in their essential nature.",
+  "words": [
+    {
+      "text": "ॐ नमो",
+      "transliteration": "oṃ namo",
+      "translation": "Om Homage",
+      "hindi": "ॐ नमन",
+      "etym": "Sacred syllable + namas (bow/homage).",
+      "note": "-"
+    },
+    {
+      "text": "भगवत्यै",
+      "transliteration": "bhagavatyai",
+      "translation": "To the Blessed One (Fem)",
+      "hindi": "भगवती को",
+      "etym": "Dative Singular Feminine.",
+      "note": "Personifying Wisdom as a Goddess."
+    },
+    {
+      "text": "आर्यावलोकितेश्वरो",
+      "transliteration": "āryāvalokiteśvaro",
+      "translation": "Noble Avalokiteshvara",
+      "hindi": "आर्य अवलोकितेश्वर",
+      "etym": "ārya (noble) + avalokita (gazed) + īśvara (lord).",
+      "note": "The Bodhisattva of Compassion."
+    },
+    {
+      "text": "गम्भीरां",
+      "transliteration": "gambhīrāṃ",
+      "translation": "Deep/Profound",
+      "hindi": "गहरी",
+      "etym": "Adjective. Accusative Singular.",
+      "note": "-"
+    },
+    {
+      "text": "चर्यां चरमाणो",
+      "transliteration": "caryāṃ caramāṇo",
+      "translation": "Practicing the Practice",
+      "hindi": "चर्या (साधना) करते हुए",
+      "etym": "caryā (conduct) + car (to move/practice). Participle.",
+      "note": "-"
+    },
+    {
+      "text": "व्यवलोकयति स्म",
+      "transliteration": "vyavalokayati sma",
+      "translation": "Looked Down/Observed",
+      "hindi": "देखा",
+      "etym": "vi + ava + lok. 'Sma' indicates past tense.",
+      "note": "-"
+    },
+    {
+      "text": "पञ्चस्कन्धास्",
+      "transliteration": "pañca-skandhās",
+      "translation": "Five Aggregates",
+      "hindi": "पाँच स्कंध",
+      "etym": "pañca (5) + skandha (heaps/components).",
+      "note": "Form, feeling, perception, mental formations, consciousness."
+    },
+    {
+      "text": "स्वभावशून्यान्",
+      "transliteration": "svabhāva-śūnyān",
+      "translation": "Empty of Self-Nature",
+      "hindi": "स्वभाव से शून्य",
+      "etym": "svabhāva (own nature) + śūnya (empty).",
+      "note": "Lacking independent existence."
+    },
+    {
+      "text": "पश्यति स्म",
+      "transliteration": "paśyati sma",
+      "translation": "Saw",
+      "hindi": "देखा",
+      "etym": "Root: dṛś (see).",
+      "note": "-"
+    }
+  ]
+},
+{
+  "type": "Sutra Passage",
+  "verseIndex": "Heart Sutra 2",
+  "fullTransliteration": "Iha śāriputra rūpaṃ śūnyatā śūnyataiva rūpam | Rūpānna pṛthak śūnyatā śūnyatāyā na pṛthag rūpam | Yad rūpaṃ sā śūnyatā yā śūnyatā tad rūpam | Evam eva vedanā-saṃjñā-saṃskāra-vijñānāni ||",
+  "fullTranslation": "Here, O Shariputra, form is emptiness and emptiness is form. Form is not different from emptiness, and emptiness is not different from form. That which is form is emptiness, and that which is emptiness is form. The same applies to feeling, perception, mental formations, and consciousness.",
+  "words": [
+    {
+      "text": "इह शारिपुत्र",
+      "transliteration": "iha śāriputra",
+      "translation": "Here O Shariputra",
+      "hindi": "यहाँ हे शारिपुत्र",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "रूपं शून्यता",
+      "transliteration": "rūpaṃ śūnyatā",
+      "translation": "Form is Emptiness",
+      "hindi": "रूप शून्यता है",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "एवमेव",
+      "transliteration": "evam-eva",
+      "translation": "Just So/In the Same Way",
+      "hindi": "वैसे ही",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "वेदना",
+      "transliteration": "vedanā",
+      "translation": "Feeling/Sensation",
+      "hindi": "वेदना",
+      "etym": "2nd Skandha.",
+      "note": "-"
+    },
+    {
+      "text": "संज्ञा",
+      "transliteration": "saṃjñā",
+      "translation": "Perception",
+      "hindi": "संज्ञा",
+      "etym": "3rd Skandha.",
+      "note": "-"
+    },
+    {
+      "text": "संस्कार",
+      "transliteration": "saṃskāra",
+      "translation": "Mental Formations",
+      "hindi": "संस्कार",
+      "etym": "4th Skandha (Volition).",
+      "note": "-"
+    },
+    {
+      "text": "विज्ञाननि",
+      "transliteration": "vijñānāni",
+      "translation": "Consciousness(es)",
+      "hindi": "विज्ञान",
+      "etym": "5th Skandha.",
+      "note": "-"
+    }
+  ]
+},
+{
+  "type": "Sutra Passage",
+  "verseIndex": "Heart Sutra 3",
+  "fullTransliteration": "Iha śāriputra sarva-dhamāḥ śūnyatā-lakṣaṇā anutpannā aniruddhā amalā avimalā anūnā asampūrṇāḥ ||",
+  "fullTranslation": "Here, O Shariputra, all phenomena (dharmas) are marked by emptiness; they are not born, not destroyed, not stained, not pure, not deficient, and not complete.",
+  "words": [
+    {
+      "text": "सर्वधर्माः",
+      "transliteration": "sarva-dharmāḥ",
+      "translation": "All Phenomena",
+      "hindi": "सभी धर्म (तत्व)",
+      "etym": "Nominative Plural.",
+      "note": "All elements of existence."
+    },
+    {
+      "text": "शून्यता लक्षणा",
+      "transliteration": "śūnyatā-lakṣaṇā",
+      "translation": "Marked by Emptiness",
+      "hindi": "शून्यता के लक्षण वाले",
+      "etym": "lakṣaṇa (characteristic/mark).",
+      "note": "-"
+    },
+    {
+      "text": "अनुत्पन्ना",
+      "transliteration": "anutpannā",
+      "translation": "Unborn",
+      "hindi": "उत्पन्न नहीं हुए",
+      "etym": "an (not) + utpanna (arisen).",
+      "note": "-"
+    },
+    {
+      "text": "अनिरुद्धा",
+      "transliteration": "aniruddhā",
+      "translation": "Unceasing/Not Destroyed",
+      "hindi": "नष्ट नहीं होते",
+      "etym": "an + niruddha (stopped).",
+      "note": "-"
+    },
+    {
+      "text": "अमला",
+      "transliteration": "amalā",
+      "translation": "Not Stained/Impure",
+      "hindi": "मलिन नहीं",
+      "etym": "a + mala (dirt).",
+      "note": "-"
+    },
+    {
+      "text": "अविमला",
+      "transliteration": "avimalā",
+      "translation": "Not Pure",
+      "hindi": "विमल (शुद्ध) भी नहीं",
+      "etym": "a + vimala (pure).",
+      "note": "Beyond the duality of purity/impurity."
+    },
+    {
+      "text": "अनूना",
+      "transliteration": "anūnā",
+      "translation": "Not Deficient",
+      "hindi": "कम नहीं",
+      "etym": "a + ūna (less).",
+      "note": "-"
+    },
+    {
+      "text": "असम्पूर्णाः",
+      "transliteration": "asampūrṇāḥ",
+      "translation": "Not Complete/Full",
+      "hindi": "पूरे नहीं",
+      "etym": "a + sampūrṇa.",
+      "note": "They do not increase or decrease."
+    }
+  ]
+},
+{
+  "type": "Sutra Passage",
+  "verseIndex": "Heart Sutra 4",
+  "fullTransliteration": "Tasmācchāriputra śūnyatāyāṃ na rūpaṃ na vedanā na saṃjñā na saṃskārā na vijñānam | Na cakṣuḥ-śrotra-ghrāṇa-jihvā-kāya-manāṃsi | Na rūpa-śabda-gandha-rasa-spraṣṭavya-dharmāḥ ||",
+  "fullTranslation": "Therefore, O Shariputra, in emptiness there is no form, no feeling, no perception, no mental formations, no consciousness. There is no eye, ear, nose, tongue, body, or mind. There is no form, sound, smell, taste, touch, or mental object.",
+  "words": [
+    {
+      "text": "तस्मात्",
+      "transliteration": "tasmāt",
+      "translation": "Therefore",
+      "hindi": "इसलिए",
+      "etym": "Ablative of Tad.",
+      "note": "-"
+    },
+    {
+      "text": "शून्यतायां",
+      "transliteration": "śūnyatāyāṃ",
+      "translation": "In Emptiness",
+      "hindi": "शून्यता में",
+      "etym": "Locative Singular.",
+      "note": "-"
+    },
+    {
+      "text": "न चक्षुः...",
+      "transliteration": "na cakṣuḥ...",
+      "translation": "No Eye...",
+      "hindi": "न आँख...",
+      "etym": "List of the 6 sense organs (Indriyas).",
+      "note": "Negating the internal bases."
+    },
+    {
+      "text": "न रूप...",
+      "transliteration": "na rūpa...",
+      "translation": "No Form...",
+      "hindi": "न रूप...",
+      "etym": "List of the 6 sense objects (Vishayas).",
+      "note": "Negating the external bases."
+    }
+  ]
+},
+{
+  "type": "Sutra Passage",
+  "verseIndex": "Heart Sutra 5",
+  "fullTransliteration": "Na cakṣur-dhātur yāvan na mano-vijñāna-dhātuḥ | Na avidyā na avidyā-kṣayo yāvan na jarā-maraṇaṃ na jarā-maraṇa-kṣayo | Na duḥkha-samudaya-nirodha-mārgā | Na jñānaṃ na prāptir na aprāptiḥ ||",
+  "fullTranslation": "There is no eye-element and so forth up to no mind-consciousness element. There is no ignorance, no extinction of ignorance, and so forth up to no old age and death and no extinction of old age and death. There is no suffering, no origin, no cessation, no path. There is no knowledge, no attainment, and no non-attainment.",
+  "words": [
+    {
+      "text": "चक्षुर्धातुर्",
+      "transliteration": "cakṣur-dhātur",
+      "translation": "Eye Element",
+      "hindi": "चक्षु धातु",
+      "etym": "dhātu (element/realm).",
+      "note": "-"
+    },
+    {
+      "text": "यावन्",
+      "transliteration": "yāvan",
+      "translation": "Up to/Until",
+      "hindi": "जहाँ तक",
+      "etym": "-",
+      "note": "Used to abbreviate the list."
+    },
+    {
+      "text": "मनोविज्ञानधातुः",
+      "transliteration": "mano-vijñāna-dhātuḥ",
+      "translation": "Mind-Consciousness Element",
+      "hindi": "मनोविज्ञान धातु",
+      "etym": "The 18th element.",
+      "note": "-"
+    },
+    {
+      "text": "न अविद्या",
+      "transliteration": "na avidyā",
+      "translation": "No Ignorance",
+      "hindi": "न अविद्या",
+      "etym": "The 1st link of Dependent Origination.",
+      "note": "-"
+    },
+    {
+      "text": "न जरामरणं",
+      "transliteration": "na jarā-maraṇaṃ",
+      "translation": "No Old Age & Death",
+      "hindi": "न बुढ़ापा और मृत्यु",
+      "etym": "The 12th link.",
+      "note": "-"
+    },
+    {
+      "text": "न दुःख...",
+      "transliteration": "na duḥkha...",
+      "translation": "No Suffering...",
+      "hindi": "न दुःख...",
+      "etym": "Negating the 4 Noble Truths.",
+      "note": "Suffering, Origin, Cessation, Path."
+    },
+    {
+      "text": "न प्राप्तिर्",
+      "transliteration": "na prāptir",
+      "translation": "No Attainment",
+      "hindi": "न प्राप्ति",
+      "etym": "prāpti (achievement).",
+      "note": "Even enlightenment is not something 'attained'."
+    }
+  ]
+},
+{
+  "type": "Sutra Passage",
+  "verseIndex": "Heart Sutra 6",
+  "fullTransliteration": "Tasmācchāriputra aprāptitvād bodhisattvasya prajñāpāramitām āśritya viharatyacittāvaraṇaḥ | Cittāvaraṇa-nāstitvād atrasto viparyāsātikrānto niṣṭhā-nirvāṇa-prāptaḥ ||",
+  "fullTranslation": "Therefore, O Shariputra, because of non-attainment, the Bodhisattva, relying on the Perfection of Wisdom, dwells without obscuration of mind. Because of the absence of mental obscuration, he is fearless, having transcended falsity, and attains complete Nirvana.",
+  "words": [
+    {
+      "text": "अप्राप्तित्वाद्",
+      "transliteration": "aprāptitvād",
+      "translation": "Because of Non-attainment",
+      "hindi": "अप्राप्ति के कारण",
+      "etym": "Ablative.",
+      "note": "Because there is nothing to gain."
+    },
+    {
+      "text": "आश्रित्य",
+      "transliteration": "āśritya",
+      "translation": "Relying On/Taking Refuge",
+      "hindi": "आश्रय लेकर",
+      "etym": "Gerund.",
+      "note": "-"
+    },
+    {
+      "text": "विहरति",
+      "transliteration": "viharati",
+      "translation": "Dwells/Lives",
+      "hindi": "विहार करता है",
+      "etym": "vi + hṛ (to dwell).",
+      "note": "-"
+    },
+    {
+      "text": "अचित्तावरणः",
+      "transliteration": "acittāvaraṇaḥ",
+      "translation": "Without Mind-Coverings",
+      "hindi": "चित्त आवरण रहित",
+      "etym": "a (without) + citta (mind) + āvaraṇa (obstruction).",
+      "note": "Free from mental blocks/hindrances."
+    },
+    {
+      "text": "अत्रस्तो",
+      "transliteration": "atrasto",
+      "translation": "Fearless",
+      "hindi": "भयरहित",
+      "etym": "a (no) + trasta (fear/trembling).",
+      "note": "-"
+    },
+    {
+      "text": "विपर्यास",
+      "transliteration": "viparyāsa",
+      "translation": "Illusions/Upside-down Views",
+      "hindi": "भ्रम / विपर्यय",
+      "etym": "Noun.",
+      "note": "-"
+    },
+    {
+      "text": "अतिक्रान्तो",
+      "transliteration": "atikrānto",
+      "translation": "Transcended/Stepped Beyond",
+      "hindi": "पार किया हुआ",
+      "etym": "ati + kram.",
+      "note": "-"
+    },
+    {
+      "text": "निष्ठानिर्वाण",
+      "transliteration": "niṣṭhā-nirvāṇa",
+      "translation": "Final/Complete Nirvana",
+      "hindi": "परम निर्वाण",
+      "etym": "-",
+      "note": "-"
+    }
+  ]
+},
+{
+  "type": "Sutra Passage",
+  "verseIndex": "Heart Sutra 7",
+  "fullTransliteration": "Tryadhva-vyavasthitāḥ sarva-buddhāḥ prajñāpāramitām āśrityānuttarāṃ samyak-saṃbodhim abhisaṃbuddhāḥ | Tasmāj jñātavyaṃ prajñāpāramitā mahā-mantro mahā-vidyā-mantro 'nuttara-mantro 'samasama-mantraḥ sarva-duḥkha-praśamanaḥ satyam amithyatvāt | Prajñāpāramitāyām ukto mantraḥ tadyathā: gate gate pāragate pārasaṃgate bodhi svāhā ||",
+  "fullTranslation": "All Buddhas existing in the three times, relying on the Perfection of Wisdom, have fully awakened to the unsurpassed, perfect enlightenment. Therefore, one should know that the Perfection of Wisdom is the great mantra, the mantra of great knowledge, the unsurpassed mantra, the equal-to-the-unequalled mantra, which appeases all suffering; it is truth because it is not false. The mantra spoken in the Perfection of Wisdom is: Gate gate pāragate pārasaṃgate bodhi svāhā.",
+  "words": [
+    {
+      "text": "त्र्यध्व",
+      "transliteration": "tryadhva",
+      "translation": "Three Times",
+      "hindi": "तीन काल",
+      "etym": "tri + adhvan (path/time).",
+      "note": "Past, Present, Future."
+    },
+    {
+      "text": "व्यवस्थिताः",
+      "transliteration": "vyavasthitāḥ",
+      "translation": "Situated/Existing",
+      "hindi": "स्थित",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "अनुत्तरां",
+      "transliteration": "anuttarāṃ",
+      "translation": "Unsurpassed",
+      "hindi": "अनुत्तर (सर्वश्रेष्ठ)",
+      "etym": "an + uttara (higher).",
+      "note": "Nothing higher."
+    },
+    {
+      "text": "सम्यक्संबोधिम्",
+      "transliteration": "samyak-saṃbodhim",
+      "translation": "Perfect Enlightenment",
+      "hindi": "सम्यक सम्बोधि",
+      "etym": "samyak (right/perfect) + bodhi.",
+      "note": "-"
+    },
+    {
+      "text": "महामन्त्रो",
+      "transliteration": "mahā-mantro",
+      "translation": "Great Mantra",
+      "hindi": "महामंत्र",
+      "etym": "-",
+      "note": "-"
+    },
+    {
+      "text": "असमसम",
+      "transliteration": "asama-sama",
+      "translation": "Unequalled/Equal to the Unequalled",
+      "hindi": "असम-सम",
+      "etym": "asama (unequal) + sama (equal).",
+      "note": "A paradox implying supreme status."
+    },
+    {
+      "text": "प्रशमनः",
+      "transliteration": "praśamanaḥ",
+      "translation": "Pacifier/Appeaser",
+      "hindi": "शमन करने वाला",
+      "etym": "pra + śam.",
+      "note": "Removes suffering."
+    },
+    {
+      "text": "अमिथ्यत्वात्",
+      "transliteration": "amithyatvāt",
+      "translation": "Because of Non-falsity",
+      "hindi": "मिथ्या न होने से",
+      "etym": "a + mithyā.",
+      "note": "-"
+    },
+    {
+      "text": "गते गते...",
+      "transliteration": "gate gate...",
+      "translation": "Gone, Gone...",
+      "hindi": "गए, गए...",
+      "etym": "See previous entry.",
+      "note": "The Mantra."
+    }
+  ]
 }
 ]
