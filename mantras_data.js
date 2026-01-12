@@ -2805,34 +2805,34 @@ const mantrasData = [
     {
       "text": "लोकाः",
       "transliteration": "lokāḥ",
-      "translation": "Worlds / Beings / People",
-      "hindi": "समस्त लोक / प्राणी",
-      "etym": "Root: lok (to see/perceive). Nominative Plural.",
-      "note": "Refers to all planes of existence and the beings within them."
+      "translation": "Worlds / Beings",
+      "hindi": "लोक / प्राणी",
+      "etym": "Nominative Plural.",
+      "note": "Refers to all planes of existence."
     },
     {
       "text": "समस्ताः",
       "transliteration": "samastāḥ",
-      "translation": "All / Entire / United",
-      "hindi": "सभी / समस्त",
-      "etym": "sam (together) + asta (thrown/placed). Adjective.",
-      "note": "Implies the entire group without exception."
+      "translation": "All / Entire",
+      "hindi": "समस्त / सभी",
+      "etym": "Adjective.",
+      "note": "United; all together."
     },
     {
-      "text": "सुखिनः",
+      "text": "सुखिनो",
       "transliteration": "sukhino",
-      "translation": "Happy / Possessing happiness",
+      "translation": "Happy / Joyful",
       "hindi": "सुखी",
-      "etym": "sukha (happiness) + in (possessive suffix). Nominative Plural.",
-      "note": "Refers to a state of inner peace and freedom from suffering."
+      "etym": "Sandhi form of 'sukhinah' (सुखिनः).",
+      "note": "Changed from 'sukhinah' to 'sukhino' because it is followed by the voiced sound 'bha'."
     },
     {
       "text": "भवन्तु",
       "transliteration": "bhavantu",
-      "translation": "May they be / Let them be",
-      "hindi": "होवें / हों",
-      "etym": "Root: bhū (to be/become). Imperative Plural.",
-      "note": "Expresses a wish or prayer."
+      "translation": "May they be",
+      "hindi": "होवें",
+      "etym": "Root: bhū. Imperative Plural.",
+      "note": "Let it be so."
     }
   ]
 }
