@@ -2483,5 +2483,357 @@ const mantrasData = [
       "note": "Final relaxation."
     }
   ]
+},
+{
+  "type": "Reference List",
+  "verseIndex": "Yoga Terminology (Prefixes & Suffixes)",
+  "fullTransliteration": "Ardha Parivṛtta Supta Utthita Adho Ūrdhva Salamba Nirālamba | Eka Pāda Hasta Mukha Jānu Śīrṣa Aṅguṣṭha | Koṇa Pārśva Prasārita Daṇḍa Uttāna -Āsana ||",
+  "fullTranslation": "Half, Revolved, Reclined, Extended, Downward, Upward, Supported, Unsupported | One, Foot, Hand, Face, Knee, Head, Big Toe | Angle, Side, Wide-Stretched, Staff, Intense Stretch, -Pose.",
+  "words": [
+    {
+      "text": "अर्ध",
+      "transliteration": "ardha",
+      "translation": "Half",
+      "hindi": "आधा",
+      "etym": "Prefix.",
+      "note": "Ex: Ardha Candrāsana (Half Moon Pose)."
+    },
+    {
+      "text": "परिवृत्त",
+      "transliteration": "parivṛtta",
+      "translation": "Revolved / Twisted",
+      "hindi": "घुमा हुआ",
+      "etym": "pari (around) + vṛtta (turned).",
+      "note": "Indicates a twisting variation. Ex: Parivṛtta Trikoṇāsana."
+    },
+    {
+      "text": "सुप्त",
+      "transliteration": "supta",
+      "translation": "Reclined / Sleeping",
+      "hindi": "सोया हुआ",
+      "etym": "Root: svap (to sleep).",
+      "note": "Doing a pose lying on the back. Ex: Supta Vīrāsana."
+    },
+    {
+      "text": "उत्थित",
+      "transliteration": "utthita",
+      "translation": "Extended / Stretched",
+      "hindi": "उठा हुआ / फैला हुआ",
+      "etym": "ut (up) + sthā (stand/stay).",
+      "note": "Ex: Utthita Pārśvakoṇāsana (Extended Side Angle)."
+    },
+    {
+      "text": "अधो",
+      "transliteration": "adho",
+      "translation": "Downward",
+      "hindi": "नीचे की ओर",
+      "etym": "Sandhi form of 'adhas' (down).",
+      "note": "Ex: Adho Mukha (Face Down)."
+    },
+    {
+      "text": "ऊर्ध्व",
+      "transliteration": "ūrdhva",
+      "translation": "Upward",
+      "hindi": "ऊपर की ओर",
+      "etym": "Adjective.",
+      "note": "Ex: Ūrdhva Mukha (Face Up)."
+    },
+    {
+      "text": "सालम्ब",
+      "transliteration": "salamba",
+      "translation": "Supported",
+      "hindi": "सहारे के साथ",
+      "etym": "sa (with) + ālamba (support/prop).",
+      "note": "Ex: Sālamba Śīrṣāsana (Supported Headstand)."
+    },
+    {
+      "text": "निरालम्ब",
+      "transliteration": "nirālamba",
+      "translation": "Unsupported",
+      "hindi": "बिना सहारे के",
+      "etym": "nir (without) + ālamba (support).",
+      "note": "Using core strength only. Ex: Nirālamba Sarvāṅgāsana."
+    },
+    {
+      "text": "एक",
+      "transliteration": "eka",
+      "translation": "One",
+      "hindi": "एक",
+      "etym": "Number.",
+      "note": "Ex: Eka Pāda (One-Legged)."
+    },
+    {
+      "text": "पाद",
+      "transliteration": "pāda",
+      "translation": "Foot / Leg",
+      "hindi": "पैर",
+      "etym": "Noun.",
+      "note": "Ex: Pādāṅguṣṭhāsana (Big Toe Pose)."
+    },
+    {
+      "text": "हस्त",
+      "transliteration": "hasta",
+      "translation": "Hand / Arm",
+      "hindi": "हाथ",
+      "etym": "Noun.",
+      "note": "Ex: Pādahastāsana (Hands to Feet)."
+    },
+    {
+      "text": "मुख",
+      "transliteration": "mukha",
+      "translation": "Face",
+      "hindi": "मुख (चेहरा)",
+      "etym": "Noun.",
+      "note": "Ex: Gomukhāsana (Cow Face Pose)."
+    },
+    {
+      "text": "जानु",
+      "transliteration": "jānu",
+      "translation": "Knee",
+      "hindi": "घुटने",
+      "etym": "Noun.",
+      "note": "Ex: Jānu Śīrṣāsana (Head to Knee)."
+    },
+    {
+      "text": "शीर्ष",
+      "transliteration": "śīrṣa",
+      "translation": "Head",
+      "hindi": "सिर",
+      "etym": "Noun.",
+      "note": "Ex: Śīrṣāsana."
+    },
+    {
+      "text": "अङ्गुष्ठ",
+      "transliteration": "aṅguṣṭha",
+      "translation": "Big Toe / Thumb",
+      "hindi": "अंगूठा",
+      "etym": "Noun.",
+      "note": "Ex: Supta Pādāṅguṣṭhāsana."
+    },
+    {
+      "text": "कोण",
+      "transliteration": "koṇa",
+      "translation": "Angle",
+      "hindi": "कोण",
+      "etym": "Suffix/Noun.",
+      "note": "Ex: Baddhakoṇāsana (Bound Angle)."
+    },
+    {
+      "text": "पार्श्व",
+      "transliteration": "pārśva",
+      "translation": "Side / Flank",
+      "hindi": "पार्श्व (बगल)",
+      "etym": "Noun.",
+      "note": "Ex: Pārśvottānāsana (Side Intense Stretch)."
+    },
+    {
+      "text": "प्रसारित",
+      "transliteration": "prasārita",
+      "translation": "Spread / Wide / Expanded",
+      "hindi": "फैलाया हुआ",
+      "etym": "pra + sṛ (to stretch).",
+      "note": "Ex: Prasārita Pādottānāsana (Wide-Legged Forward Fold)."
+    },
+    {
+      "text": "दण्ड",
+      "transliteration": "daṇḍa",
+      "translation": "Staff / Stick",
+      "hindi": "डंडा",
+      "etym": "Noun.",
+      "note": "Refers to a straight spine. Ex: Daṇḍāsana."
+    },
+    {
+      "text": "उत्तान",
+      "transliteration": "uttāna",
+      "translation": "Intense Stretch",
+      "hindi": "तीव्र खिंचाव",
+      "etym": "ut (intense) + tan (stretch).",
+      "note": "Ex: Uttānāsana."
+    }
+  ]
+},
+{
+  "type": "Stotram (Hymn)",
+  "verseIndex": "Ganesha Pancharatnam - Verse 1",
+  "fullTransliteration": "Mudākarātta modakaṃ sadā vimukti sādhakam \nKalādharāvataṃsakaṃ vilāsiloka rakṣakam |\nAnāyakaika nāyakaṃ vināśitebha daityakam \nNatāśubhāśu nāśakaṃ namāmi taṃ vināyakam ||",
+  "fullTranslation": "I bow to Vinayaka, who joyfully holds a Modaka in His hand, who always bestows liberation, who wears the moon as an ornament, who protects the world, who is the sole leader of the leaderless, who destroyed the elephant demon, and who quickly destroys the sins of those who bow to Him.",
+  "words": [
+    {
+      "text": "मुदाकरात्तमोदकम्",
+      "transliteration": "mudākarāttamodakam",
+      "translation": "Joyfully holding a sweet",
+      "hindi": "हाथ में प्रसन्नतापूर्वक मोदक धारण किए हुए",
+      "etym": "mudā (joy) + kara (hand) + ātta (held) + modakam (sweet).",
+      "note": "Ganesha is famously fond of Modakas."
+    },
+    {
+      "text": "सदाविमुक्तिसाधकम्",
+      "transliteration": "sadāvimuktisādhakam",
+      "translation": "Always bestowing liberation",
+      "hindi": "सदा मुक्ति प्रदान करने वाले",
+      "etym": "sadā (always) + vimukti (liberation) + sādhakam (accomplishing/giver).",
+      "note": "He grants spiritual freedom."
+    },
+    {
+      "text": "कलाधरावतंसकम्",
+      "transliteration": "kalādharāvataṃsakam",
+      "translation": "Adorned with the crescent moon",
+      "hindi": "चंद्रमा को आभूषण के रूप में धारण करने वाले",
+      "etym": "kalādhara (moon) + avataṃsakam (ear ornament/crown).",
+      "note": "Similar to his father Shiva (Chandrashekhara)."
+    },
+    {
+      "text": "विलासिलोकरक्षकम्",
+      "transliteration": "vilāsilokarakṣakam",
+      "translation": "Protector of the world",
+      "hindi": "सम्पूर्ण जगत के रक्षक",
+      "etym": "vilāsi (shining/playful) + loka (world) + rakṣakam (protector).",
+      "note": "Guardian of the universe."
+    },
+    {
+      "text": "अनायकैकनायकम्",
+      "transliteration": "anāyakaikanāyakam",
+      "translation": "Sole leader of the leaderless",
+      "hindi": "अनाथों के एकमात्र नायक",
+      "etym": "anāyaka (those without a leader) + eka (one/sole) + nāyakam (leader).",
+      "note": "The ultimate refuge."
+    },
+    {
+      "text": "विनाशितोभदैत्यकम्",
+      "transliteration": "vināśitebhadaityakam",
+      "translation": "Destroyer of the Elephant Demon",
+      "hindi": "गजासुर (हाथी राक्षस) का विनाश करने वाले",
+      "etym": "vināśita (destroyed) + ibha (elephant) + daityakam (demon).",
+      "note": "Refers to the slaying of Gajasura."
+    },
+    {
+      "text": "नताशुभाशुनाशकम्",
+      "transliteration": "natāśubhāśunāśakam",
+      "translation": "Quick destroyer of sins of the bowed",
+      "hindi": "शरणागतों के पापों का शीघ्र नाश करने वाले",
+      "etym": "nata (bowed ones) + aśubha (sins/inauspiciousness) + āśu (quickly) + nāśakam (destroyer).",
+      "note": "He removes obstacles instantly."
+    },
+    {
+      "text": "नमामि तं विनायकम्",
+      "transliteration": "namāmi taṃ vināyakam",
+      "translation": "I bow to that Vinayaka",
+      "hindi": "मैं उस विनायक को नमन करता हूँ",
+      "etym": "namāmi (I bow) + tam (to Him) + vināyakam (Remover of obstacles).",
+      "note": "The concluding salutation."
+    }
+  ]
+},
+{
+  "type": "Stotram (Hymn)",
+  "verseIndex": "Ganesha Pancharatnam - Verse 2",
+  "fullTransliteration": "Natetarāti bhīkaraṃ navoditārka bhāsvaram |\nNamatsurāri nirjaraṃ natādhikāpad uddharam ||\nSureśvaraṃ nidhīśvaraṃ gajeśvaraṃ gaṇeśvaram |\nMaheśvaraṃ tamāśraye parātparaṃ nirantaram ||",
+  "fullTranslation": "I seek eternal refuge in Him, who is terrifying to those who do not bow (enemies), who shines like the newly risen sun, who is saluted by both demons and gods, who delivers those who bow to Him from great dangers. He is the Lord of Gods, the Lord of Treasures, the Lord of Elephants, the Lord of the Ganas, the Great Lord, and the Supreme beyond the Supreme.",
+  "words": [
+    {
+      "text": "नतेतरातिभीकरम्",
+      "transliteration": "natetarātibhīkaram",
+      "translation": "Terrifying to those not bowing (enemies)",
+      "hindi": "जो नमन नहीं करते (शत्रु), उनके लिए भयानक",
+      "etym": "nata (bowed) + itara (others/non-bowed) + ati (very) + bhīkaram (terrifying).",
+      "note": "Implies he is gentle to devotees but fierce to arrogance."
+    },
+    {
+      "text": "नवोदितार्कभास्वरम्",
+      "transliteration": "navoditārkabhāsvaram",
+      "translation": "Shining like the newly risen sun",
+      "hindi": "नवीन उदित सूर्य के समान तेजस्वी",
+      "etym": "nava (new) + udita (risen) + arka (sun) + bhāsvaram (shining/radiant).",
+      "note": "Refers to Ganesha's reddish/orange complexion."
+    },
+    {
+      "text": "नमत्सुरारिनिर्जरम्",
+      "transliteration": "namatsurārinirjaram",
+      "translation": "Saluted by Demons and Gods",
+      "hindi": "राक्षसों (सुरारि) और देवताओं (निर्जर) द्वारा नमस्कृत",
+      "etym": "namat (bowing) + surāri (enemy of gods/demons) + nirjaram (ageless/gods).",
+      "note": "Shows his supremacy over all beings, good and bad."
+    },
+    {
+      "text": "नताधिकापदुद्धरम्",
+      "transliteration": "natādhikāpaduddharam",
+      "translation": "Lifter of great dangers for the bowed",
+      "hindi": "शरण में आए भक्तों की बड़ी विपत्तियों को हरने वाले",
+      "etym": "nata (bowed) + adhika (great/excessive) + āpad (danger/calamity) + uddharam (uplifter/remover).",
+      "note": "He is Vighnaharta (Remover of Obstacles)."
+    },
+    {
+      "text": "सुरेश्वरं निधीश्वरम्",
+      "transliteration": "sureśvaraṃ nidhīśvaram",
+      "translation": "Lord of Gods, Lord of Treasures",
+      "hindi": "देवताओं के स्वामी, निधियों (धन) के स्वामी",
+      "etym": "sura+īśvaram (Lord of Gods); nidhi+īśvaram (Lord of Treasures).",
+      "note": "He bestows both divine status and material wealth (the 9 Nidhis)."
+    },
+    {
+      "text": "गजेश्वरं गणेश्वरम्",
+      "transliteration": "gajeśvaraṃ gaṇeśvaram",
+      "translation": "Lord of Elephants, Lord of the Ganas",
+      "hindi": "हाथियों के स्वामी, गणों (शिव के अनुचर) के स्वामी",
+      "etym": "gaja+īśvaram (Lord of Elephants); gaṇa+īśvaram (Lord of Troops).",
+      "note": "Refers to his elephant head and his role as commander of Shiva's army."
+    },
+    {
+      "text": "महेश्वरं तमाश्रये",
+      "transliteration": "maheśvaraṃ tamāśraye",
+      "translation": "I seek refuge in that Great Lord",
+      "hindi": "मैं उस महेश्वर (परम स्वामी) की शरण लेता हूँ",
+      "etym": "mahā+īśvaram (Great Lord); tam (Him) + āśraye (I seek shelter).",
+      "note": "Maheshvara is usually Shiva, here applied to Ganesha as the Supreme."
+    },
+    {
+      "text": "परात्परं निरन्तरम्",
+      "transliteration": "parātparaṃ nirantaram",
+      "translation": "Supreme beyond Supreme, Eternal",
+      "hindi": "परम से भी परे, शाश्वत (निरंतर)",
+      "etym": "parāt (than the high) + param (higher); nir (without) + antaram (end/gap).",
+      "note": "Describes his nature as Brahman (The Absolute)."
+    }
+  ]
+},
+{
+  "type": "Shanti Mantra (Peace Invocation)",
+  "verseIndex": "Universal Peace Prayer",
+  "fullTransliteration": "Lokāḥ samastāḥ sukhino bhavantu",
+  "fullTranslation": "May all beings everywhere be happy and free.",
+  "words": [
+    {
+      "text": "लोकाः",
+      "transliteration": "lokāḥ",
+      "translation": "Worlds / Beings / People",
+      "hindi": "समस्त लोक / प्राणी",
+      "etym": "Root: lok (to see/perceive). Nominative Plural.",
+      "note": "Refers to all planes of existence and the beings within them."
+    },
+    {
+      "text": "समस्ताः",
+      "transliteration": "samastāḥ",
+      "translation": "All / Entire / United",
+      "hindi": "सभी / समस्त",
+      "etym": "sam (together) + asta (thrown/placed). Adjective.",
+      "note": "Implies the entire group without exception."
+    },
+    {
+      "text": "सुखिनः",
+      "transliteration": "sukhino",
+      "translation": "Happy / Possessing happiness",
+      "hindi": "सुखी",
+      "etym": "sukha (happiness) + in (possessive suffix). Nominative Plural.",
+      "note": "Refers to a state of inner peace and freedom from suffering."
+    },
+    {
+      "text": "भवन्तु",
+      "transliteration": "bhavantu",
+      "translation": "May they be / Let them be",
+      "hindi": "होवें / हों",
+      "etym": "Root: bhū (to be/become). Imperative Plural.",
+      "note": "Expresses a wish or prayer."
+    }
+  ]
 }
 ]
