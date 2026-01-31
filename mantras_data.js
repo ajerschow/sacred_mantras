@@ -2835,5 +2835,93 @@ const mantrasData = [
       "note": "Let it be so."
     }
   ]
+},
+{
+  "type": "Navagraha Stotram",
+  "verseIndex": "Shani Mantra (Verse 7)",
+  "fullTransliteration": "Nīlāñjana samābhāsaṃ raviputraṃ yamāgrajam |\nChhāyā mārtaṇḍa saṃbhūtaṃ taṃ namāmi śanaiścharam ||",
+  "fullTranslation": "I bow to Shani, who is as radiant as blue collyrium (ointment), who is the son of the Sun (Ravi) and the elder brother of Yama, and who is born of Chhaya and Martanda (the Sun).",
+  "words": [
+    {
+      "text": "नीलाञ्जन",
+      "transliteration": "nīlāñjana",
+      "translation": "Blue collyrium / Black ointment",
+      "hindi": "नीला अंजन (काजल)",
+      "etym": "nīla (blue/dark) + añjana (ointment/pigment).",
+      "note": "Refers to his dark complexion resembling soothing eye salve."
+    },
+    {
+      "text": "समाभासं",
+      "transliteration": "samābhāsaṃ",
+      "translation": "Resembling / Shining like",
+      "hindi": "के समान आभा वाले",
+      "etym": "sama (equal) + ābhāsa (appearance/luster).",
+      "note": ""
+    },
+    {
+      "text": "रविपुत्रं",
+      "transliteration": "raviputraṃ",
+      "translation": "Son of the Sun",
+      "hindi": "सूर्य (रवि) के पुत्र",
+      "etym": "ravi (Sun) + putram (son).",
+      "note": "Shani is the son of Surya."
+    },
+    {
+      "text": "यमाग्रजम्",
+      "transliteration": "yamāgrajam",
+      "translation": "Elder brother of Yama",
+      "hindi": "यमराज के बड़े भाई",
+      "etym": "yama (God of Death) + agrajam (born before/elder).",
+      "note": "Yama is the judge of Dharma; Shani is the executor of Karma."
+    },
+    {
+      "text": "छाया",
+      "transliteration": "chhāyā",
+      "translation": "Chhaya (Shadow)",
+      "hindi": "छाया (माता)",
+      "etym": "Noun.",
+      "note": "Shani's mother, the shadow wife of the Sun."
+    },
+    {
+      "text": "मार्तण्ड",
+      "transliteration": "mārtaṇḍa",
+      "translation": "The Sun (Martanda)",
+      "hindi": "सूर्य (मार्तण्ड)",
+      "etym": "marta (mortal/egg) + aṇḍa (egg).",
+      "note": "A specific name for the Sun God."
+    },
+    {
+      "text": "संभूतं",
+      "transliteration": "saṃbhūtaṃ",
+      "translation": "Born of",
+      "hindi": "से उत्पन्न",
+      "etym": "sam + bhū (to become/born).",
+      "note": "Born from the union of Chhaya and Martanda."
+    },
+    {
+      "text": "तं",
+      "transliteration": "taṃ",
+      "translation": "To Him",
+      "hindi": "उन",
+      "etym": "Pronoun.",
+      "note": ""
+    },
+    {
+      "text": "नमामि",
+      "transliteration": "namāmi",
+      "translation": "I bow / I salute",
+      "hindi": "मैं नमन करता हूँ",
+      "etym": "Root: nam (to bow).",
+      "note": ""
+    },
+    {
+      "text": "शनैश्चरम्",
+      "transliteration": "śanaiścharam",
+      "translation": "The slow-moving one (Saturn)",
+      "hindi": "शनैश्चर (शनि देव)",
+      "etym": "śanaiḥ (slowly) + charam (moving).",
+      "note": "Saturn takes ~30 years to orbit the Sun, hence 'the slow mover'."
+    }
+  ]
 }
 ]
